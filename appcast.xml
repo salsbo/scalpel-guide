@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.17</title>
-      <pubDate>Wed, 02 Sep 2026 19:20:38 +0200</pubDate>
-      <sparkle:version>202609021918</sparkle:version>
-      <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
+      <title>Version 0.1.18</title>
+      <pubDate>Wed, 02 Sep 2026 21:45:44 +0200</pubDate>
+      <sparkle:version>202609022143</sparkle:version>
+      <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.17. Details sur <a href="https://scalpel.besle.org">scalpel.besle.org</a>.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="/M8NqXMdJb729EHSJqZEnpt5PaUT6NUKXWSTV/FMIPjwVRPwnJ8dbKs2efPpTsJd1YN4BDj8hh0BGI5FfVtIDA==" length="6090906" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.18 : le curseur gomme ou loupe apparaît dès que l&#39;outil est armé, avant le premier clic. Gomme (effacer une zone) et mises à jour automatiques introduites en 0.1.15 à 0.1.17.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="+oLLmIoZj8LsuwZqdkjZggWrpRfDHO+wDqAFVUo4MeZhQGQaPf2XRdazDrty8NZCl0sc/xdrQ8YBaYITMJwMBA==" length="6096943" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
