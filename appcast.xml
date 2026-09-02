@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.22</title>
-      <pubDate>Wed, 02 Sep 2026 22:30:32 +0200</pubDate>
-      <sparkle:version>202609022228</sparkle:version>
-      <sparkle:shortVersionString>0.1.22</sparkle:shortVersionString>
+      <title>Version 0.1.23</title>
+      <pubDate>Wed, 02 Sep 2026 22:34:11 +0200</pubDate>
+      <sparkle:version>202609022232</sparkle:version>
+      <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.22 : la fenêtre s&#39;ouvre assez large pour afficher toute la barre de titre, icône Scalpel et bouton Ouvrir compris.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="Vh4pgg8EWEUuKshbHJ2cf1EcSvJ1t4hs9SQVYPviNZdJTe7iC0M4xhF+9mqZwqnDp0N26Od+8DSzMYAvgMzYDA==" length="6111447" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.23 : nouvel outil « Sélectionner une image » dans la barre de titre. Toutes les images de la page sont encadrées, un clic ou la liste en choisit une pour la remplacer ou la supprimer.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="GRgmlSD7y+CM82Ttc8iVwOBW023AA5ap0fxh/kSwW5jJIpyjEa8NeAjgIaqYnwBW0qLo7j0Lb0V6KjPB0iExAg==" length="6120882" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
