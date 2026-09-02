@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.20</title>
-      <pubDate>Wed, 02 Sep 2026 22:14:19 +0200</pubDate>
-      <sparkle:version>202609022212</sparkle:version>
-      <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
+      <title>Version 0.1.21</title>
+      <pubDate>Wed, 02 Sep 2026 22:17:26 +0200</pubDate>
+      <sparkle:version>202609022215</sparkle:version>
+      <sparkle:shortVersionString>0.1.21</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.20 : ajout ou retrait de lettres dans les titres composés lettre par lettre (exports Canva, Figma…), avec emprunt des glyphes manquants aux polices sœurs du document.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="mBXZnYbcg8e9ldIOyXwCffNnWBy/Wek2Un/sPBAq/1mfoPy3/P7z408trZFqT6Wn9+sY9yS6tnlS98r2xmorBQ==" length="6113342" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.21 : Appliquer, Annuler et Enregistrer sous rejoignent la barre de titre dans un groupe Actions, après la gomme.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="B1UeWwr14AiXRkEK6DVT9UgPPRPCjlt/L3YBBjLbDoaMpa6NOCNp1bKRL+fvOhDX+6GBb9XZ2FgHiIboQGTCDQ==" length="6111452" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
