@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.19</title>
-      <pubDate>Wed, 02 Sep 2026 21:51:29 +0200</pubDate>
-      <sparkle:version>202609022149</sparkle:version>
-      <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
+      <title>Version 0.1.20</title>
+      <pubDate>Wed, 02 Sep 2026 22:14:19 +0200</pubDate>
+      <sparkle:version>202609022212</sparkle:version>
+      <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.19 : le disque d&#39;installation propose le raccourci Applications pour glisser-déposer l&#39;app.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="CNUkuJrirWsJ3Q+teAR1fgsXRd72SPu68xPdpOdHeg6TP9rX+L8tqsXM7qK7WP002XNDNaBsRFnqKrKSRNChCQ==" length="6096944" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.20 : ajout ou retrait de lettres dans les titres composés lettre par lettre (exports Canva, Figma…), avec emprunt des glyphes manquants aux polices sœurs du document.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="mBXZnYbcg8e9ldIOyXwCffNnWBy/Wek2Un/sPBAq/1mfoPy3/P7z408trZFqT6Wn9+sY9yS6tnlS98r2xmorBQ==" length="6113342" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
