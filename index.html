@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Scalpel — retouche chirurgicale de PDF pour Mac. Modifiez un mot, une date, un montant ou une image sans rien casser d'autre.">
+<title>Scalpel — Guide / User Guide</title>
+<link rel="icon" href="scalpel.png">
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap");
+
+  :root {
+    --paper: #ffffff;
+    --ink: #0a0f0d;
+    --muted: #5b6560;
+    --line: #e4e7e3;
+    --accent: #00c16a;
+    --accent-deep: #0a3d2c;
+    --card: #f5f7f4;
+    --surface: #f4f5f2;
+    --kbd-bg: #ffffff;
+    --kbd-shadow: rgba(10, 15, 13, 0.18);
+    --header: #0a0f0d;
+    --on-header: #f4f5f2;
+    --shadow-1: 0 8px 30px rgba(10, 15, 13, 0.08);
+    --display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+    --body: "Archivo", ui-sans-serif, system-ui, sans-serif;
+    --mono: "Space Mono", ui-monospace, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0a0f0d; --ink: #f4f5f2; --muted: #aab5af; --line: rgba(244, 245, 242, 0.14);
+      --accent: #2de38f; --accent-deep: #2de38f; --card: #121815; --surface: #18201c;
+      --kbd-bg: #18201c; --kbd-shadow: rgba(0, 0, 0, 0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0a0f0d; --ink: #f4f5f2; --muted: #aab5af; --line: rgba(244,245,242,0.14);
+    --accent: #2de38f; --accent-deep: #2de38f; --card: #121815; --surface: #18201c;
+    --kbd-bg: #18201c; --kbd-shadow: rgba(0,0,0,0.5);
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; padding-top: 76px; background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+  :root[data-lang="fr"] .en { display: none; }
+  :root[data-lang="en"] .fr { display: none; }
+  .wrap { max-width: 840px; margin: 0 auto; padding: 0 24px; }
+
+  .topbar { position: fixed; inset: 0 0 auto; z-index: 20; min-height: 76px; display: flex; align-items: center; justify-content: space-between; padding: 14px max(24px, calc((100vw - 1080px) / 2)); background: var(--header); color: var(--on-header); border-bottom: 1px solid rgba(244, 245, 242, 0.12); }
+  .brand { display: flex; align-items: center; gap: 10px; color: var(--on-header); font-family: var(--display); font-weight: 700; letter-spacing: -0.01em; }
+  .brand img { width: 26px; height: 26px; border-radius: 6px; }
+  .controls { display: flex; gap: 8px; align-items: center; }
+  .seg { display: inline-flex; background: rgba(244,245,242,0.08); border: 1px solid rgba(244,245,242,0.16); border-radius: 999px; padding: 2px; }
+  .seg button { font: inherit; font-size: 13px; font-weight: 600; border: 0; background: transparent; color: #aab5af; padding: 5px 12px; border-radius: 999px; cursor: pointer; }
+  .seg button[aria-pressed="true"] { background: var(--accent); color: #0a0f0d; }
+  .iconbtn { font-size: 15px; line-height: 1; border: 1px solid rgba(244,245,242,0.16); background: rgba(244,245,242,0.08); color: var(--on-header); width: 34px; height: 30px; border-radius: 999px; cursor: pointer; }
+
+  .hero { text-align: center; padding: 88px 0 56px; }
+  .publications-back { display: inline-flex; align-items: center; gap: 7px; margin: 0 auto 26px; padding: 8px 15px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--accent-deep); font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-decoration: none; text-transform: uppercase; }
+  .publications-back:hover { color: #0a0f0d; background: var(--accent); border-color: var(--accent); }
+  .applogo { width: 112px; height: 112px; margin: 0 auto 30px; border-radius: 26px; box-shadow: 0 18px 42px -18px rgba(0, 193, 106, 0.65); display: block; }
+  h1 { font-family: var(--display); font-weight: 700; letter-spacing: -0.04em; font-size: clamp(2.6rem, 7vw, 5rem); line-height: 1; margin: 0 0 20px; text-wrap: balance; }
+  .lede { font-size: clamp(1.1rem, 2.4vw, 1.3rem); color: var(--muted); max-width: 44ch; margin: 0 auto; text-wrap: balance; }
+  .cta-row { display: flex; flex-wrap: wrap; gap: 10px 16px; justify-content: center; align-items: center; margin-top: 30px; }
+  .cta { display: inline-flex; align-items: center; gap: 9px; font-family: var(--display); font-weight: 700; font-size: 1.02rem; background: var(--accent); color: #0a0f0d; text-decoration: none; padding: 13px 24px; border-radius: 10px; box-shadow: 0 12px 28px -14px rgba(0, 193, 106, 0.75); transition: transform 0.12s ease; }
+  .cta:hover { transform: translateY(-2px); }
+  .cta svg { width: 18px; height: 18px; fill: currentColor; }
+  .cta-note { font-size: 0.9rem; color: var(--muted); }
+  .dlcount { margin: 16px 0 0; font-size: 0.95rem; color: var(--muted); }
+  .dlcount .dlnum { font-family: var(--display); font-weight: 700; color: var(--accent-deep); font-variant-numeric: tabular-nums; }
+  .badges { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 22px; }
+  .badge { font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 6px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); }
+
+  section { padding: 40px 0; border-top: 1px solid var(--line); }
+  h2 { font-family: var(--display); font-weight: 700; letter-spacing: -0.02em; font-size: 1.7rem; margin: 0 0 14px; }
+  h3 { font-family: var(--display); font-size: 1.1rem; margin: 22px 0 6px; }
+  p { margin: 0 0 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-top: 18px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 18px 14px; }
+  .card strong { font-family: var(--display); display: block; margin-bottom: 6px; }
+  .card p { color: var(--muted); font-size: 0.95rem; margin: 0; }
+  ol, ul { padding-left: 22px; margin: 0 0 12px; }
+  li { margin: 4px 0; }
+  kbd { font-family: var(--mono); font-size: 0.8em; background: var(--kbd-bg); border: 1px solid var(--line); border-radius: 6px; padding: 2px 7px; box-shadow: 0 1px 0 var(--kbd-shadow); }
+  .note { border-left: 3px solid var(--accent); background: var(--surface); padding: 12px 16px; border-radius: 0 10px 10px 0; color: var(--muted); font-size: 0.95rem; }
+  footer { padding: 40px 0 60px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.95rem; }
+  a { color: var(--accent-deep); }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="brand"><img src="scalpel.png" alt="">Scalpel</div>
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Language">
+      <button id="fr" aria-pressed="true" onclick="setLang('fr')">FR</button>
+      <button id="en" aria-pressed="false" onclick="setLang('en')">EN</button>
+    </div>
+    <button class="iconbtn" aria-label="Theme" onclick="toggleTheme()">◐</button>
+  </div>
+</div>
+
+<div class="wrap">
+  <header class="hero">
+    <a class="publications-back" href="https://www.besle.org/">
+      <span aria-hidden="true">←</span>
+      <span class="fr">Toutes les publications</span>
+      <span class="en">All publications</span>
+    </a>
+    <img class="applogo" src="scalpel.png" alt="Scalpel">
+    <div class="fr">
+      <h1>Retouchez un PDF sans rien casser</h1>
+      <p class="lede">Scalpel modifie un mot, une date, un montant ou une image dans un PDF. Tout le reste du document reste identique, octet pour octet, et l'application le prouve.</p>
+      <div class="cta-row">
+        <a class="cta" href="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel.dmg" download>
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1a.75.75 0 0 1 .75.75v6.69l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06l2.22 2.22V1.75A.75.75 0 0 1 8 1ZM2.75 13a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H2.75Z"/></svg>
+          Télécharger pour Mac
+        </a>
+        <span class="cta-note">Gratuit · macOS 14+ · Apple Silicon</span>
+      </div>
+    </div>
+    <div class="en">
+      <h1>Edit a PDF without breaking anything</h1>
+      <p class="lede">Scalpel changes a word, a date, an amount or an image inside a PDF. Everything else stays byte-for-byte identical, and the app proves it.</p>
+      <div class="cta-row">
+        <a class="cta" href="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel.dmg" download>
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1a.75.75 0 0 1 .75.75v6.69l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06l2.22 2.22V1.75A.75.75 0 0 1 8 1ZM2.75 13a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H2.75Z"/></svg>
+          Download for Mac
+        </a>
+        <span class="cta-note">Free · macOS 14+ · Apple Silicon</span>
+      </div>
+    </div>
+    <div class="badges">
+      <span class="badge fr">100 % local</span><span class="badge en">100% on-device</span>
+      <span class="badge fr">Signé et notarisé Apple</span><span class="badge en">Apple signed and notarized</span>
+      <span class="badge fr">Mises à jour automatiques</span><span class="badge en">Automatic updates</span>
+      <span class="badge">Version 0.1.17</span>
+    </div>
+    <p class="dlcount" id="dlcount" hidden>
+      <span class="fr">Déjà <span class="dlnum">—</span> téléchargements</span>
+      <span class="en">Already <span class="dlnum">—</span> downloads</span>
+    </p>
+  </header>
+
+  <section>
+    <div class="fr">
+      <h2>Ce que fait Scalpel</h2>
+      <p>Les éditeurs de PDF classiques réécrivent tout le document quand on touche à un mot : polices remplacées, couleurs altérées, mise en page qui bouge. Scalpel fait l'inverse. Il ne modifie que les octets du fragment choisi et vérifie, pixel par pixel, que rien d'autre n'a changé.</p>
+      <div class="grid">
+        <div class="card"><strong>Texte</strong><p>Sélectionnez un mot, une date ou un montant, tapez le remplacement. Ancrage à gauche, à droite ou centré, séparateurs de milliers au style du document.</p></div>
+        <div class="card"><strong>Images</strong><p>Cliquez une image pour la remplacer par un collage ou un fichier, la recadrer, la tourner. Insérez une image ou un texte libre là où vous voulez.</p></div>
+        <div class="card"><strong>Gomme</strong><p>Tracez un rectangle : le texte et les images entièrement dedans disparaissent, les traits et les fonds restent.</p></div>
+        <div class="card"><strong>Preuve</strong><p>Chaque modification est rendue avant et après. Le verdict affiche le nombre de pixels changés hors de la zone : zéro, sinon Scalpel le dit.</p></div>
+      </div>
+    </div>
+    <div class="en">
+      <h2>What Scalpel does</h2>
+      <p>Classic PDF editors rewrite the whole document as soon as you touch a word: fonts get swapped, colours drift, the layout moves. Scalpel does the opposite. It patches only the bytes of the chosen fragment and checks, pixel by pixel, that nothing else changed.</p>
+      <div class="grid">
+        <div class="card"><strong>Text</strong><p>Select a word, a date or an amount, type the replacement. Left, right or centred anchoring, thousands separators matching the document.</p></div>
+        <div class="card"><strong>Images</strong><p>Click an image to replace it from the clipboard or a file, crop it, rotate it. Insert a new image or free text wherever you want.</p></div>
+        <div class="card"><strong>Eraser</strong><p>Draw a rectangle: text and images fully inside vanish, rules and backgrounds stay.</p></div>
+        <div class="card"><strong>Proof</strong><p>Every edit is rendered before and after. The verdict shows how many pixels changed outside the zone: zero, otherwise Scalpel says so.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="fr">
+      <h2>Installer Scalpel</h2>
+      <ol>
+        <li>Téléchargez <a href="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel.dmg">Scalpel.dmg</a> et ouvrez-le.</li>
+        <li>Glissez <strong>Scalpel</strong> dans le dossier <strong>Applications</strong>.</li>
+        <li>Lancez Scalpel depuis Applications ou Spotlight. L'application est signée et notarisée par Apple : aucun avertissement de sécurité.</li>
+      </ol>
+      <p class="note">Scalpel fonctionne sur Mac Apple Silicon (M1 ou plus récent) avec macOS 14 Sonoma ou plus récent.</p>
+    </div>
+    <div class="en">
+      <h2>Install Scalpel</h2>
+      <ol>
+        <li>Download <a href="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel.dmg">Scalpel.dmg</a> and open it.</li>
+        <li>Drag <strong>Scalpel</strong> into the <strong>Applications</strong> folder.</li>
+        <li>Launch Scalpel from Applications or Spotlight. The app is signed and notarized by Apple: no security warning.</li>
+      </ol>
+      <p class="note">Scalpel runs on Apple Silicon Macs (M1 or later) with macOS 14 Sonoma or later.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="fr">
+      <h2>Retoucher un document</h2>
+      <h3>Modifier un texte</h3>
+      <ol>
+        <li>Ouvrez le PDF (<kbd>⌘O</kbd> ou l'icône dossier dans la barre de titre).</li>
+        <li>Sélectionnez le fragment à changer directement dans la page. La carte <strong>Fragment</strong> l'affiche, la carte <strong>Remplacement</strong> attend votre texte.</li>
+        <li>Choisissez l'ancrage si nécessaire : un montant aligné à droite garde son alignement, un titre centré reste centré.</li>
+        <li>Cliquez <strong>Appliquer</strong>. La carte <strong>Preuve</strong> donne le verdict, <strong>Afficher la preuve</strong> montre l'avant et l'après ligne par ligne.</li>
+        <li><strong>Enregistrer sous</strong> (<kbd>⌘S</kbd>) écrit un nouveau fichier, optimisé sans perte. L'original n'est jamais touché.</li>
+      </ol>
+      <h3>Images, insertion, gomme</h3>
+      <ul>
+        <li>Cliquez une image de la page pour la remplacer, la recadrer ou la supprimer (<kbd>⌫</kbd>).</li>
+        <li>Le groupe <strong>Insertion</strong> de la barre de titre ajoute une image ou un texte : placez le cadre, réglez la taille et l'angle, appliquez.</li>
+        <li>Le groupe <strong>Gomme</strong> arme un rectangle rouge. Tout texte ou image entièrement dedans est retiré, le reste ne bouge pas.</li>
+        <li><kbd>⌘Z</kbd> annule la dernière modification, la carte <strong>Modifications</strong> garde l'historique avec le verdict de chacune.</li>
+      </ul>
+    </div>
+    <div class="en">
+      <h2>Editing a document</h2>
+      <h3>Change some text</h3>
+      <ol>
+        <li>Open the PDF (<kbd>⌘O</kbd> or the folder icon in the title bar).</li>
+        <li>Select the fragment to change directly in the page. The <strong>Fragment</strong> card shows it, the <strong>Replacement</strong> card waits for your text.</li>
+        <li>Pick the anchoring if needed: a right-aligned amount keeps its alignment, a centred title stays centred.</li>
+        <li>Click <strong>Apply</strong>. The <strong>Proof</strong> card gives the verdict, <strong>Show proof</strong> displays before and after, line by line.</li>
+        <li><strong>Save as</strong> (<kbd>⌘S</kbd>) writes a new file, losslessly optimised. The original is never touched.</li>
+      </ol>
+      <h3>Images, insertion, eraser</h3>
+      <ul>
+        <li>Click an image on the page to replace, crop or delete it (<kbd>⌫</kbd>).</li>
+        <li>The <strong>Insertion</strong> group in the title bar adds an image or some text: place the frame, set size and angle, apply.</li>
+        <li>The <strong>Eraser</strong> group arms a red rectangle. Any text or image fully inside is removed, nothing else moves.</li>
+        <li><kbd>⌘Z</kbd> undoes the last edit, the <strong>Edits</strong> card keeps the history with each verdict.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="fr">
+      <h2>Ce que Scalpel refuse</h2>
+      <p>Scalpel dit non plutôt que d'abîmer un document. Il refuse un PDF scanné (image sans texte), un texte vectorisé en contours, un document chiffré ou signé électroniquement. Quand un caractère n'existe pas dans la police embarquée, il le cherche dans les autres polices du document, puis dans celles de votre Mac. Une option permet de télécharger des polices libres (Google Fonts) ; par défaut, aucune connexion n'est faite pour cela.</p>
+    </div>
+    <div class="en">
+      <h2>What Scalpel refuses</h2>
+      <p>Scalpel says no rather than damaging a document. It refuses a scanned PDF (image without text), text outlined as vectors, encrypted or digitally signed documents. When a character is missing from the embedded font, it looks in the document's other fonts, then in your Mac's fonts. An option lets it download open-source fonts (Google Fonts); by default, no connection is made for that.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="fr">
+      <h2>Confidentialité et mises à jour</h2>
+      <p>Scalpel tourne dans le bac à sable macOS. Vos documents ne quittent jamais votre Mac. Les seules connexions sortantes sont la vérification quotidienne de mise à jour sur scalpel.besle.org et, si vous l'activez, le téléchargement de polices libres.</p>
+      <p>Les mises à jour sont automatiques : Scalpel propose la nouvelle version avec ses notes, vous cliquez <strong>Installer</strong>. Chaque archive est signée par une clé privée qui ne quitte pas le poste de développement ; Scalpel refuse toute archive dont la signature ne correspond pas. Vous pouvez vérifier à tout moment via le menu <strong>Scalpel › Rechercher des mises à jour</strong>.</p>
+    </div>
+    <div class="en">
+      <h2>Privacy and updates</h2>
+      <p>Scalpel runs inside the macOS sandbox. Your documents never leave your Mac. The only outgoing connections are the daily update check on scalpel.besle.org and, if you enable it, downloading open-source fonts.</p>
+      <p>Updates are automatic: Scalpel offers the new version with its notes, you click <strong>Install</strong>. Every archive is signed with a private key that never leaves the development machine; Scalpel refuses any archive whose signature does not match. You can check at any time from the <strong>Scalpel › Check for updates</strong> menu.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="fr">
+      <p><strong>Scalpel</strong> — retouche chirurgicale de PDF pour Mac. Vos documents restent sur votre Mac.</p>
+      <p>Une question ou une suggestion ? Écrivez à <a href="mailto:jrobert@besle.org">jrobert@besle.org</a>.</p>
+    </div>
+    <div class="en">
+      <p><strong>Scalpel</strong> — surgical PDF editing for Mac. Your documents stay on your Mac.</p>
+      <p>A question or a suggestion? Email <a href="mailto:jrobert@besle.org">jrobert@besle.org</a>.</p>
+    </div>
+  </footer>
+</div>
+
+<script>
+  function setLang(l) {
+    document.documentElement.setAttribute('data-lang', l);
+    document.getElementById('fr').setAttribute('aria-pressed', String(l === 'fr'));
+    document.getElementById('en').setAttribute('aria-pressed', String(l === 'en'));
+    document.documentElement.lang = l;
+  }
+  function toggleTheme() {
+    var cur = document.documentElement.getAttribute('data-theme');
+    if (!cur) cur = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', cur === 'dark' ? 'light' : 'dark');
+  }
+  setLang((navigator.language || 'fr').toLowerCase().startsWith('en') ? 'en' : 'fr');
+
+  // Compteur : somme des download_count des DMG sur toutes les releases publiques.
+  // Les archives de mise a jour (Scalpel-Update.zip) sont exclues. Cache 10 min.
+  (function () {
+    var KEY = 'scalpel_dl', TTL = 600000;
+    function show(n) {
+      var els = document.querySelectorAll('#dlcount .dlnum');
+      for (var i = 0; i < els.length; i++) els[i].textContent = n.toLocaleString('fr-FR');
+      document.getElementById('dlcount').hidden = false;
+    }
+    try {
+      var c = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (c && (Date.now() - c.t) < TTL) { show(c.n); return; }
+    } catch (e) {}
+    fetch('https://api.github.com/repos/salsbo/scalpel-guide/releases?per_page=100')
+      .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .then(function (rels) {
+        var n = 0;
+        for (var i = 0; i < rels.length; i++) {
+          var assets = rels[i].assets || [];
+          for (var j = 0; j < assets.length; j++) {
+            if (/^scalpel.*\.dmg$/i.test(assets[j].name)) n += assets[j].download_count || 0;
+          }
+        }
+        show(n);
+        try { localStorage.setItem(KEY, JSON.stringify({ n: n, t: Date.now() })); } catch (e) {}
+      })
+      .catch(function () {});
+  })();
+</script>
+</body>
+</html>
