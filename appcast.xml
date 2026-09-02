@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Scalpel</title>
+    <link>https://scalpel.besle.org/appcast.xml</link>
+    <description>Mises a jour de Scalpel</description>
+    <language>fr</language>
+    <item>
+      <title>Version 0.1.17</title>
+      <pubDate>Wed, 02 Sep 2026 19:20:38 +0200</pubDate>
+      <sparkle:version>202609021918</sparkle:version>
+      <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Scalpel 0.1.17. Details sur <a href="https://scalpel.besle.org">scalpel.besle.org</a>.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="/M8NqXMdJb729EHSJqZEnpt5PaUT6NUKXWSTV/FMIPjwVRPwnJ8dbKs2efPpTsJd1YN4BDj8hh0BGI5FfVtIDA==" length="6090906" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
