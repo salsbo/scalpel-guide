@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.35</title>
-      <pubDate>Thu, 03 Sep 2026 10:11:17 +0200</pubDate>
-      <sparkle:version>202609031009</sparkle:version>
-      <sparkle:shortVersionString>0.1.35</sparkle:shortVersionString>
+      <title>Version 0.1.36</title>
+      <pubDate>Thu, 03 Sep 2026 10:31:20 +0200</pubDate>
+      <sparkle:version>202609031029</sparkle:version>
+      <sparkle:shortVersionString>0.1.36</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.35 : l&#39;image suit son cadre pendant le déplacement, le bouton Rechercher et remplacer est en tête du groupe Actions et dans le menu Édition (⌘F).</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="rTfhBsmUv3WWV3EKedLc0lx+ky8exXgqOXVLbWgfQSOkkY7rqalYbec1vPbekIioODv4Y+z+4PsTJsd1MhsXBA==" length="6201561" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.36 : nouvelle fenêtre À propos.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="fJYlhqf7kuujDr/BMbKI3bMgHZMk4D1HN23RiAGZT4H+Idfc/cnbi+CRapPfz4aQuUlB4f3tnS4xpM4jkXHXAQ==" length="6320030" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
