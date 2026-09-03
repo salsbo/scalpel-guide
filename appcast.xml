@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.24</title>
-      <pubDate>Wed, 02 Sep 2026 22:43:02 +0200</pubDate>
-      <sparkle:version>202609022240</sparkle:version>
-      <sparkle:shortVersionString>0.1.24</sparkle:shortVersionString>
+      <title>Version 0.1.25</title>
+      <pubDate>Thu, 03 Sep 2026 08:41:27 +0200</pubDate>
+      <sparkle:version>202609030839</sparkle:version>
+      <sparkle:shortVersionString>0.1.25</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.24 : zoom au pincement plus doux et borné à la page, taille, rotation et position modifiables sur une image existante, surbrillance de la zone modifiée après Appliquer, clic dans le vide pour libérer la sélection.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="6Ele378TlIoIY4gnu/zMSnkK/nyyIe9FljfnJDvmwTIn4QN1fCArHz4illzqOXeBaV3lJc862vPQTUijwRHODw==" length="6137033" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.25 : icône en tête de fenêtre, images simplifiées (la gomme efface, Insertion ajoute), choix complet de la police, du style et de la taille pour le texte inséré.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="ym2Vt957Hf3fVf/LiuxQHnwUdS1hofi9OJSUK6a2u3UCnv+Obd2OjcaHhSdzfBto2vl/ioDnT3sGGzcS4EnoAA==" length="6140669" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
