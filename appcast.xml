@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.37</title>
-      <pubDate>Thu, 03 Sep 2026 10:36:08 +0200</pubDate>
-      <sparkle:version>202609031034</sparkle:version>
-      <sparkle:shortVersionString>0.1.37</sparkle:shortVersionString>
+      <title>Version 0.1.38</title>
+      <pubDate>Thu, 03 Sep 2026 10:45:00 +0200</pubDate>
+      <sparkle:version>202609031042</sparkle:version>
+      <sparkle:shortVersionString>0.1.38</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.37 : la gomme peut effacer la même zone sur toutes les pages (logo, en-tête, pied de page), le bouton Rechercher porte son libellé dans la barre, et la fenêtre principale s&#39;ouvre correctement au lancement.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="P0PPEPdntgC9UxQGD6NWmjMdmPT42t88DbE1kI5yoKf0ApitBujyfLYByJylmh86xZgk1DpFX8W87Jlz+LCgAw==" length="6323501" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.38 : à l&#39;insertion d&#39;une image ou d&#39;un texte, le cadre suit la souris et se pose d&#39;un clic ; l&#39;image collée ensuite prend cette place.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="ZDUXXv0w0d9dtnotE2cqNEVrz5VBgjtNz7JJx85JY6ckv252IsHVwkSwfB7Ed/Mr5pZ0K6BoQin4TLGLZa16CQ==" length="6324256" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
