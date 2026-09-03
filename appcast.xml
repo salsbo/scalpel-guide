@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.27</title>
-      <pubDate>Thu, 03 Sep 2026 09:07:02 +0200</pubDate>
-      <sparkle:version>202609030905</sparkle:version>
-      <sparkle:shortVersionString>0.1.27</sparkle:shortVersionString>
+      <title>Version 0.1.28</title>
+      <pubDate>Thu, 03 Sep 2026 09:11:50 +0200</pubDate>
+      <sparkle:version>202609030909</sparkle:version>
+      <sparkle:shortVersionString>0.1.28</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.27 : zoom au pincement plus doux, la page reste toujours sous les yeux (plus de zone grise). Depuis 0.1.26, la gomme efface aussi les logos et tracés vectoriels.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="WnEiaspqerT6dMIUtweL8mjLRfA57Z1YKuGPLUTMJ0wYImM8fRnF8z5ujDDOZwCgDhC0rUueY2eKPWodjECJCA==" length="6141955" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.28 : le fragment sélectionné s&#39;affiche sur fond gris, distinct du champ de remplacement bleu, et un bouton Appliquer est disponible directement dans la carte Remplacement.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="JRnhtaF7zjWENRazRE1W8gwcmMkhaSEnZCtzpSK0O3lFQ5ZtYiD4dlGY/f+aoCfYevc6fm90/SNNm+H2iyEaAw==" length="6142858" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
