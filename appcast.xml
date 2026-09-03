@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.38</title>
-      <pubDate>Thu, 03 Sep 2026 10:45:00 +0200</pubDate>
-      <sparkle:version>202609031042</sparkle:version>
-      <sparkle:shortVersionString>0.1.38</sparkle:shortVersionString>
+      <title>Version 0.1.39</title>
+      <pubDate>Thu, 03 Sep 2026 21:43:38 +0200</pubDate>
+      <sparkle:version>202609032141</sparkle:version>
+      <sparkle:shortVersionString>0.1.39</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.38 : à l&#39;insertion d&#39;une image ou d&#39;un texte, le cadre suit la souris et se pose d&#39;un clic ; l&#39;image collée ensuite prend cette place.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="ZDUXXv0w0d9dtnotE2cqNEVrz5VBgjtNz7JJx85JY6ckv252IsHVwkSwfB7Ed/Mr5pZ0K6BoQin4TLGLZa16CQ==" length="6324256" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.39 corrige la gestion des polices système SFNS et des glyphes manquants, ajoute un journal local avec signalement volontaire du seul message d’erreur, et vérifie les mises à jour au lancement.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="7uEusdf309GX1KY9Zghan/EiIStjzDpMhZNQQeWYucd1UMJrs1rB0v3zJ0b79bprfo3ChZc3VgIURrTS1BSoDA==" length="6334111" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
