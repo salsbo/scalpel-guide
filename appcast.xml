@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.34</title>
-      <pubDate>Thu, 03 Sep 2026 10:02:44 +0200</pubDate>
-      <sparkle:version>202609031000</sparkle:version>
-      <sparkle:shortVersionString>0.1.34</sparkle:shortVersionString>
+      <title>Version 0.1.35</title>
+      <pubDate>Thu, 03 Sep 2026 10:11:17 +0200</pubDate>
+      <sparkle:version>202609031009</sparkle:version>
+      <sparkle:shortVersionString>0.1.35</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.34 : bouton Appliquer dans la carte de l&#39;image insérée, et une seule couleur bleue pour tous les boutons Appliquer, Insérer et Remplacer.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="NxZFBrMmO3TTqb1Zf9pajcgbiQO22G8vUBE2VNRrO4Lhg04Z6mmxivgKTxhOmxIpDOnoBUzVcjREi0uHTDs3DA==" length="6200079" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.35 : l&#39;image suit son cadre pendant le déplacement, le bouton Rechercher et remplacer est en tête du groupe Actions et dans le menu Édition (⌘F).</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="rTfhBsmUv3WWV3EKedLc0lx+ky8exXgqOXVLbWgfQSOkkY7rqalYbec1vPbekIioODv4Y+z+4PsTJsd1MhsXBA==" length="6201561" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
