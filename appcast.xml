@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.32</title>
-      <pubDate>Thu, 03 Sep 2026 09:36:16 +0200</pubDate>
-      <sparkle:version>202609030934</sparkle:version>
-      <sparkle:shortVersionString>0.1.32</sparkle:shortVersionString>
+      <title>Version 0.1.33</title>
+      <pubDate>Thu, 03 Sep 2026 09:46:44 +0200</pubDate>
+      <sparkle:version>202609030944</sparkle:version>
+      <sparkle:shortVersionString>0.1.33</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.32 : annuler et rétablir sans limite (⌘Z, ⇧⌘Z), et un clic sur une ligne de l&#39;historique revient juste avant cette modification ou la rétablit.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="3iBB2qMIwsggtSMeQxdniWe5rM3S9McCF3EGnk1wHhqykyzgNZEYlHnTOSnInxxLfkn6+KmMiOLOsIgDPy+xAg==" length="6170884" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.33 : rechercher et remplacer dans tout le document (⌘F), chaque occurrence cochée est remplacée chirurgicalement avec sa preuve et sa ligne d&#39;historique.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="dVcL7rqn94v3pls0SJovn2+Z8cLOusWDTR8k3CeIW2WMQm5rfMqrAurdAAx7nQ5A3e2Om+H9DYErISxQPBznAg==" length="6198791" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
