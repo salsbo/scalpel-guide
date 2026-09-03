@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.29</title>
-      <pubDate>Thu, 03 Sep 2026 09:14:50 +0200</pubDate>
-      <sparkle:version>202609030912</sparkle:version>
-      <sparkle:shortVersionString>0.1.29</sparkle:shortVersionString>
+      <title>Version 0.1.30</title>
+      <pubDate>Thu, 03 Sep 2026 09:20:33 +0200</pubDate>
+      <sparkle:version>202609030918</sparkle:version>
+      <sparkle:shortVersionString>0.1.30</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.29 : les polices libres manquantes sont téléchargées d&#39;office et conservées, plus d&#39;option à cocher. Un clic dans la page éteint la surbrillance de la dernière modification.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="EkrXYrE3KUY2cJYrqtPO4NmnYf+XL2tGPr5hmMu8aUPrtoddvmoEo8mng1jNjg1hF+E65grNUksGdXsmO63qBw==" length="6141580" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.30 : bouton Insérer directement dans les cartes d&#39;insertion de texte et d&#39;image.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="RLYiC9tVosSn7S/TqPrm4czljlOYH/x6wVvL97pWwYFeBvmP1Zq6AsY3XDIvuBK4ezUd6zwzv2tYj4p892uoDA==" length="6142418" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
