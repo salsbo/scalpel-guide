@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.40</title>
-      <pubDate>Thu, 03 Sep 2026 22:06:10 +0200</pubDate>
-      <sparkle:version>202609032203</sparkle:version>
-      <sparkle:shortVersionString>0.1.40</sparkle:shortVersionString>
+      <title>Version 0.1.41</title>
+      <pubDate>Fri, 04 Sep 2026 20:30:19 +0200</pubDate>
+      <sparkle:version>202609042027</sparkle:version>
+      <sparkle:shortVersionString>0.1.41</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.40 ajoute la prise en charge des polices stockees dans les formulaires PDF, notamment certains exports Canva, et renforce les tests sur documents reels.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="Q5zter9NPCISYoKUXqUWRXzHXbdfz/VW4JvGe8ffC9gyGDMhN1SkMnu55YZDSCfPvjVgqVlKeth7I6Iw7UZhAw==" length="6334289" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.41 ajoute une aide intégrée, le signalement de bugs, une banque d’images réutilisables et un pack hors ligne de 54 polices libres. La résolution automatique des glyphes et des polices PDF est renforcée.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="sXHo5/5Qov2Mv1jCV+4gpxzy6hOm5uEPxBsWX1btDwWoFdhCnBowC4ffuyFngExKrTwUpvpq1koxBKNhz+d+Bw==" length="24748815" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
