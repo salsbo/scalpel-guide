@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.41</title>
-      <pubDate>Fri, 04 Sep 2026 20:30:19 +0200</pubDate>
-      <sparkle:version>202609042027</sparkle:version>
-      <sparkle:shortVersionString>0.1.41</sparkle:shortVersionString>
+      <title>Version 0.1.42</title>
+      <pubDate>Sun, 06 Sep 2026 16:04:35 +0200</pubDate>
+      <sparkle:version>202609061716</sparkle:version>
+      <sparkle:shortVersionString>0.1.42</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.41 ajoute une aide intégrée, le signalement de bugs, une banque d’images réutilisables et un pack hors ligne de 54 polices libres. La résolution automatique des glyphes et des polices PDF est renforcée.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="sXHo5/5Qov2Mv1jCV+4gpxzy6hOm5uEPxBsWX1btDwWoFdhCnBowC4ffuyFngExKrTwUpvpq1koxBKNhz+d+Bw==" length="24748815" type="application/octet-stream" />
+      <description><![CDATA[<h3>Scalpel 0.1.42</h3><ul><li>Audit du poids avant enregistrement, gain sans perte mesuré et taille maximale souhaitée.</li><li>Choix entre copie optimisée et copie sans optimisation ; protection des fichiers signés ou chiffrés.</li><li>Priorité aux polices originales, contrôle des styles et versions, signalement des approximations.</li><li>Téléchargement des polices Nimbus depuis la source officielle, puis réutilisation hors ligne selon les droits déclarés.</li></ul>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="q/yo+Pv2oWRiTsKN2vaDOdh2pSuWahmXg8dYMlqpW75jDNAmznsxD/yCaicx+FSVSJEO/zroKNvnJUl0W/qnBw==" length="24788660" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
