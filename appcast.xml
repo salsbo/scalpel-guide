@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.65</title>
-      <pubDate>Tue, 08 Sep 2026 21:49:57 +0200</pubDate>
-      <sparkle:version>202609082147</sparkle:version>
-      <sparkle:shortVersionString>0.1.65</sparkle:shortVersionString>
+      <title>Version 0.1.66</title>
+      <pubDate>Tue, 08 Sep 2026 21:57:51 +0200</pubDate>
+      <sparkle:version>202609082155</sparkle:version>
+      <sparkle:shortVersionString>0.1.66</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.65 : quand la zone à déplacer n'est pas détachable, parce que son contenu est dessiné dans un groupe et non dans le flux de la page, Scalpel le dit en clair au lieu d'un verdict chiffré, garde la capture sous la main, et propose une issue : masquer la source et déplacer. La zone est alors recouverte comme un caviardage, puis l'image se repose où vous voulez.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="zUXzWkHcr0U2jtGOslcrKd/bERm6FR+8H+T2bPU7ciFNeaBh7sa53ExcEJVker9akhZmnBW+yMBGsCZWsQi5Bg==" length="25139695" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.66 : déplacer une zone fonctionne aussi sur les documents aplatis ou scannés. Quand la zone est entièrement contenue dans une image, il n'y a aucun objet à détacher : Scalpel relève la couleur du fond autour d'elle et pose cet aplat exactement sur la zone avant de reposer l'image ailleurs. Sur un fond uni, la coupure ne se voit pas. À savoir : c'est un déplacement visuel, les pixels d'origine restent dans l'image sous l'aplat.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="yo8Uh3AVdVCc/JaLvY/1J/C3TOMqKikgY8Y2bP0KwYXNLC3O16ujJ5P454tQOBziCOkoTlAhN27fG4/IfMBRAg==" length="25144305" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
