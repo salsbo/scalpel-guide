@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.58</title>
-      <pubDate>Tue, 08 Sep 2026 20:20:53 +0200</pubDate>
-      <sparkle:version>202609082018</sparkle:version>
-      <sparkle:shortVersionString>0.1.58</sparkle:shortVersionString>
+      <title>Version 0.1.59</title>
+      <pubDate>Tue, 08 Sep 2026 21:04:40 +0200</pubDate>
+      <sparkle:version>202609082101</sparkle:version>
+      <sparkle:shortVersionString>0.1.59</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.58 : le tracé des annotations est réparé. La flèche ne se posait pas et bloquait les autres outils, l'ellipse ne répondait plus. Les outils d'annotation restent maintenant armés après une pose, pour en tracer plusieurs de suite ; Échap désarme. Le bouton Appliquer descend dans le coin bas droit de la page, avec Annuler à côté, en bleu électrique avec un halo qui respire.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="btxw0jwivGk2NrRrEfSxzGGsIV3kvH7eaatehJipGnwegwaGxJbQ91ot0dVkqMm/leruykZF43KwtfXfzrrRDw==" length="25111960" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.59 : un rectangle ou une ellipse se reprend comme une flèche, par quatre poignées aux coins ; tirez un coin pour redimensionner, l'intérieur pour déplacer. Appliquer, Insérer et Annuler portent partout le même libellé et apparaissent aussi en haut à droite, à côté de l'aide, seulement quand il y a quelque chose à valider. Nouvelle rangée « Données incluses » : Scripts et actions, ex-Éléments actifs, et Métadonnées, avec une explication au survol. « Markdown » devient « Exporter vers Markdown ».</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="KbecCElTa5QNN1C7hQjdQnWqnHCL6abZ6nqv/WU9iQ9QCMUKZMFjEZHCUx27f/sebf9g7WPuwLolfyekAqKOCw==" length="25120504" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
