@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.46</title>
-      <pubDate>Tue, 08 Sep 2026 15:31:58 +0200</pubDate>
-      <sparkle:version>202609081529</sparkle:version>
-      <sparkle:shortVersionString>0.1.46</sparkle:shortVersionString>
+      <title>Version 0.1.47</title>
+      <pubDate>Tue, 08 Sep 2026 15:34:36 +0200</pubDate>
+      <sparkle:version>202609081532</sparkle:version>
+      <sparkle:shortVersionString>0.1.47</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Barre d’outils sur deux rangées : chaque icône porte son nom.</li><li>Gommer et Caviarder sont deux boutons distincts et nommés ; l’outil armé se colore et une phrase indique le geste attendu.</li><li>Surligner, Souligner, Barrer, Dessiner et la couleur sont accessibles directement, sans menu.</li><li>La pastille de couleur affiche enfin la vraie couleur.</li></ul>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="QuXgk23KRw/mJ0Jc01F3RyMBgAJPRlUaEdisz8JSeY6GjH8OveOBdS9JGPmMkr16iDSSuMKVUSWeMT5ZqwooDg==" length="24977844" type="application/octet-stream" />
+      <description><![CDATA[<ul><li>Avertissement à la première utilisation du caviardage : le bloc noir n’est pas un cache, le contenu est retiré du fichier.</li><li>Barre d’outils sur deux rangées, chaque icône avec son nom (0.1.46).</li></ul>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="RlzPi6E3/oFd06o/dsIS56FRJrNemkmDjbSKL2i6tmAX39yOXW4M5ncLRHaz6IlVj22VJlzZqPucQficANkODQ==" length="24978349" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
