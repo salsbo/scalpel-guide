@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.67</title>
-      <pubDate>Tue, 08 Sep 2026 22:12:11 +0200</pubDate>
-      <sparkle:version>202609082209</sparkle:version>
-      <sparkle:shortVersionString>0.1.67</sparkle:shortVersionString>
+      <title>Version 0.1.68</title>
+      <pubDate>Tue, 08 Sep 2026 22:21:33 +0200</pubDate>
+      <sparkle:version>202609082218</sparkle:version>
+      <sparkle:shortVersionString>0.1.68</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.67 : déplacer une zone ne s'arrête plus sur un refus. Quand rien n'est détachable, parce que le document est aplati, que le schéma est une seule image ou que le contenu est dessiné dans un groupe, la zone est automatiquement recouverte de la couleur de son fond et le déplacement se poursuit, avec une note qui dit ce qui s'est passé. Corrige aussi l'appcast, qui pointait une adresse mouvante et pouvait faire échouer la mise à jour avec « improperly signed ».</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.67/Scalpel-Update.zip" sparkle:edSignature="3ULxKCDLQKLM8b9zmE8I412PATA8W5lYIFDNOfPjJ4ZxOWmCGF5H/eMV+W7T1TJDo84JSCuDnju6No2NLuSPDQ==" length="25143598" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.68 : Scalpel ouvre désormais les images du document et y retire vraiment la zone, au lieu de la recouvrir. L'image est décodée en pixels, le morceau comblé d'après son voisinage puis fondu, et l'image réécrite : tout ce qui n'est pas dans la zone reste rigoureusement identique. Sur un fond en dégradé ou texturé, la couleur suit le voisinage au lieu de plaquer une teinte unique. JPEG, JPEG 2000 et flux compressés en gris, RVB, CMJN, ICC et palette sont couverts ; pour le reste, l'aplat de la couleur du fond prend le relais.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.68/Scalpel-Update.zip" sparkle:edSignature="OWRkceDO5pSVb4freLfsicGFlLFMMsxKPAmr9fDvBn+UVtZZu1o0Ar1tUVFbAqzPQW6OHSiw7YCDR6/tXWKBDg==" length="25155990" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
