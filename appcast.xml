@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.53</title>
-      <pubDate>Tue, 08 Sep 2026 18:00:32 +0200</pubDate>
-      <sparkle:version>202609081758</sparkle:version>
-      <sparkle:shortVersionString>0.1.53</sparkle:shortVersionString>
+      <title>Version 0.1.54</title>
+      <pubDate>Tue, 08 Sep 2026 19:01:07 +0200</pubDate>
+      <sparkle:version>202609081858</sparkle:version>
+      <sparkle:shortVersionString>0.1.54</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.53 : la barre d'outils nomme ses trois rangées, Affichage, Édition et Annoter. Nouvel outil « Déplacer une zone » : tracez un rectangle, il en est fait une image, puis choisissez de la déplacer (la zone est retirée de la page et son image se repose ailleurs), de la copier ailleurs, de l'ajouter à la banque d'images, ou les deux. Le panneau d'insertion d'image gagne un raccourci vers la banque.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="E3lGP25ciHYoqH12X+PDYWipw0gEJfoh1iMqRuhr+gZ++MtwJkqszc7/CZ/RPjQfRMX/nNkug/bOFvTzGAjWCA==" length="25064361" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.54 : le curseur montre la forme qu'on va tracer, rectangle, ellipse, flèche ou note, au lieu d'une loupe. La flèche s'aperçoit comme un vecteur pendant qu'on la tire, de son point de départ vers sa pointe. Texte libre quitte la rangée Annoter, Édition a déjà Texte. Les rangées d'outils alignent leurs éléments sur le milieu de leur ligne. Le bouton Appliquer se met en surbrillance dès qu'il y a quelque chose à appliquer, et la touche de suppression retire l'objet sélectionné.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="WT8aTs74AllNdWJERyMSBPFoWvyG2+6g6FBXwJAAGchRfNMh8pp0Eoo9bzeE7QQcBKA05N2bMb980FTqzkWiCg==" length="25069134" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
