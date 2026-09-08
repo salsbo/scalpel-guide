@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.64</title>
-      <pubDate>Tue, 08 Sep 2026 21:44:57 +0200</pubDate>
-      <sparkle:version>202609082142</sparkle:version>
-      <sparkle:shortVersionString>0.1.64</sparkle:shortVersionString>
+      <title>Version 0.1.65</title>
+      <pubDate>Tue, 08 Sep 2026 21:49:57 +0200</pubDate>
+      <sparkle:version>202609082147</sparkle:version>
+      <sparkle:shortVersionString>0.1.65</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.64 : la fenêtre « À propos » crédite DaHouse et Auto Victoria, et dit ce que Scalpel est vraiment, un outil écrit pour rendre service à un ami.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="RvQDqOeZVvSH0qijexVYfBjkxjhz6GxboyVvs+hH71Fl8V4YhbWATz9Ca0GKgVcH+/Cz1yGPOskY94d6SPX6AA==" length="25133038" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.65 : quand la zone à déplacer n'est pas détachable, parce que son contenu est dessiné dans un groupe et non dans le flux de la page, Scalpel le dit en clair au lieu d'un verdict chiffré, garde la capture sous la main, et propose une issue : masquer la source et déplacer. La zone est alors recouverte comme un caviardage, puis l'image se repose où vous voulez.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="zUXzWkHcr0U2jtGOslcrKd/bERm6FR+8H+T2bPU7ciFNeaBh7sa53ExcEJVker9akhZmnBW+yMBGsCZWsQi5Bg==" length="25139695" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
