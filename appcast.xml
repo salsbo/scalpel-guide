@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.63</title>
-      <pubDate>Tue, 08 Sep 2026 21:41:14 +0200</pubDate>
-      <sparkle:version>202609082138</sparkle:version>
-      <sparkle:shortVersionString>0.1.63</sparkle:shortVersionString>
+      <title>Version 0.1.64</title>
+      <pubDate>Tue, 08 Sep 2026 21:44:57 +0200</pubDate>
+      <sparkle:version>202609082142</sparkle:version>
+      <sparkle:shortVersionString>0.1.64</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.63 : déplacer une zone échouait avec « Rien à gommer dans ce rectangle » dès qu'un cadre vectoriel dépassait d'un cheveu ; le geste utilise désormais la gomme tolérante. Le cadre d'insertion gagne une poignée de rotation sous son bord haut, pour tourner l'image à la souris. Le panneau de la zone capturée se simplifie : Déplacer devient un grand bouton bleu, Ajouter à la banque ne consomme plus la capture. Appliquer, Insérer et Annuler passent au rectangle à bords arrondis, plus aérés, et le bleu respire en haut comme en bas.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="6Vp+IflarQMNZMCUpXns0JFj6C4MUd+wVKaQxOvDRPZq5wAkUnMf/BcbUgh0TvPgcGcswOgVrZkeyksqq3j/Aw==" length="25133051" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.64 : la fenêtre « À propos » crédite DaHouse et Auto Victoria, et dit ce que Scalpel est vraiment, un outil écrit pour rendre service à un ami.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="RvQDqOeZVvSH0qijexVYfBjkxjhz6GxboyVvs+hH71Fl8V4YhbWATz9Ca0GKgVcH+/Cz1yGPOskY94d6SPX6AA==" length="25133038" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
