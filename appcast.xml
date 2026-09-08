@@ -12,7 +12,7 @@
       <sparkle:shortVersionString>0.1.66</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<p>Scalpel 0.1.66 : déplacer une zone fonctionne aussi sur les documents aplatis ou scannés. Quand la zone est entièrement contenue dans une image, il n'y a aucun objet à détacher : Scalpel relève la couleur du fond autour d'elle et pose cet aplat exactement sur la zone avant de reposer l'image ailleurs. Sur un fond uni, la coupure ne se voit pas. À savoir : c'est un déplacement visuel, les pixels d'origine restent dans l'image sous l'aplat.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="yo8Uh3AVdVCc/JaLvY/1J/C3TOMqKikgY8Y2bP0KwYXNLC3O16ujJ5P454tQOBziCOkoTlAhN27fG4/IfMBRAg==" length="25144305" type="application/octet-stream" />
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.66/Scalpel-Update.zip" sparkle:edSignature="yo8Uh3AVdVCc/JaLvY/1J/C3TOMqKikgY8Y2bP0KwYXNLC3O16ujJ5P454tQOBziCOkoTlAhN27fG4/IfMBRAg==" length="25144305" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
