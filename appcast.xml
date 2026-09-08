@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.66</title>
-      <pubDate>Tue, 08 Sep 2026 21:57:51 +0200</pubDate>
-      <sparkle:version>202609082155</sparkle:version>
-      <sparkle:shortVersionString>0.1.66</sparkle:shortVersionString>
+      <title>Version 0.1.67</title>
+      <pubDate>Tue, 08 Sep 2026 22:12:11 +0200</pubDate>
+      <sparkle:version>202609082209</sparkle:version>
+      <sparkle:shortVersionString>0.1.67</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.66 : déplacer une zone fonctionne aussi sur les documents aplatis ou scannés. Quand la zone est entièrement contenue dans une image, il n'y a aucun objet à détacher : Scalpel relève la couleur du fond autour d'elle et pose cet aplat exactement sur la zone avant de reposer l'image ailleurs. Sur un fond uni, la coupure ne se voit pas. À savoir : c'est un déplacement visuel, les pixels d'origine restent dans l'image sous l'aplat.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.66/Scalpel-Update.zip" sparkle:edSignature="yo8Uh3AVdVCc/JaLvY/1J/C3TOMqKikgY8Y2bP0KwYXNLC3O16ujJ5P454tQOBziCOkoTlAhN27fG4/IfMBRAg==" length="25144305" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.67 : déplacer une zone ne s'arrête plus sur un refus. Quand rien n'est détachable, parce que le document est aplati, que le schéma est une seule image ou que le contenu est dessiné dans un groupe, la zone est automatiquement recouverte de la couleur de son fond et le déplacement se poursuit, avec une note qui dit ce qui s'est passé. Corrige aussi l'appcast, qui pointait une adresse mouvante et pouvait faire échouer la mise à jour avec « improperly signed ».</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.67/Scalpel-Update.zip" sparkle:edSignature="3ULxKCDLQKLM8b9zmE8I412PATA8W5lYIFDNOfPjJ4ZxOWmCGF5H/eMV+W7T1TJDo84JSCuDnju6No2NLuSPDQ==" length="25143598" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
