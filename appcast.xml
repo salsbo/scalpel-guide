@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.48</title>
-      <pubDate>Tue, 08 Sep 2026 15:45:25 +0200</pubDate>
-      <sparkle:version>202609081542</sparkle:version>
-      <sparkle:shortVersionString>0.1.48</sparkle:shortVersionString>
+      <title>Version 0.1.49</title>
+      <pubDate>Tue, 08 Sep 2026 15:59:42 +0200</pubDate>
+      <sparkle:version>202609081556</sparkle:version>
+      <sparkle:shortVersionString>0.1.49</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Reconnaissance de texte locale : un PDF scanné devient cherchable, copiable et exportable, sans que son aspect change. Hors ligne, par le moteur de macOS.</li><li>Données sensibles : repère IBAN, cartes bancaires, numéros de sécurité sociale, e-mails, téléphones, SIRET et immatriculations, et les caviarde d’un geste.</li></ul>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="mUTXosl77iaiWc0K3mTlNxMFgbGpow5g0BblIwCVTlesBAzRBuqvxRV56XjMPY4ghfdYy5q8hbUbHeQa1tUMAA==" length="25020563" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.49 : le caviardage propose maintenant le bloc noir ou le flou. Le flou n'est pas un calque posé sur le texte : la zone est redessinée dans une grille de quelques pixels, et le contenu part du fichier comme avec le bloc noir. Le style choisi s'applique aussi au caviardage des données sensibles.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="N2EreSV4zy4MvG8JLNAsGjwOZHWZkcDBsZsxDkCUyFT7v5glEyO2BE1J1nQnZcTplW3zMAdiFKQL0cogLP68AQ==" length="25030272" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
