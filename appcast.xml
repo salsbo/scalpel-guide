@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.51</title>
-      <pubDate>Tue, 08 Sep 2026 17:33:25 +0200</pubDate>
-      <sparkle:version>202609081730</sparkle:version>
-      <sparkle:shortVersionString>0.1.51</sparkle:shortVersionString>
+      <title>Version 0.1.52</title>
+      <pubDate>Tue, 08 Sep 2026 17:51:20 +0200</pubDate>
+      <sparkle:version>202609081748</sparkle:version>
+      <sparkle:shortVersionString>0.1.52</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.51 : les PDF s'ouvrent en onglets. Chaque onglet porte le nom du fichier et garde son propre historique ; ouvrir un second document ne remplace plus le premier et n'efface plus ses modifications en attente. Déposez plusieurs PDF dans la fenêtre, ou choisissez-en plusieurs à l'ouverture : un onglet par fichier. Un point orange signale les modifications non enregistrées, ⌘W ferme l'onglet actif.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="HhU3oS6hCEMDybFKyySXpVYAQ40TYsqVwnDBxH5Lt8VE9Xah0YOMxYXdEcMAqDfGy/ZeM86qJ2rQU86I3fk4Dw==" length="25052299" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.52 : déposer un PDF sur une page déjà ouverte ouvre maintenant un nouvel onglet. La vue PDF acceptait elle-même les fichiers déposés et consommait le geste avant l'application ; elle lui repasse la main. Déposez plusieurs fichiers d'un coup, vous obtenez un onglet par fichier.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="c67XSkvj3vJz38kg/X3U1y71OIruvC9oDuAH7jVDrEzAjBQMHKC8sWZzgCKriMoA15BlSR9nEqhH/RVx2B1RAA==" length="25053976" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
