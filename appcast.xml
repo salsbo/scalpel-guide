@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.68</title>
-      <pubDate>Tue, 08 Sep 2026 22:21:33 +0200</pubDate>
-      <sparkle:version>202609082218</sparkle:version>
-      <sparkle:shortVersionString>0.1.68</sparkle:shortVersionString>
+      <title>Version 0.1.69</title>
+      <pubDate>Tue, 08 Sep 2026 22:39:55 +0200</pubDate>
+      <sparkle:version>202609082237</sparkle:version>
+      <sparkle:shortVersionString>0.1.69</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.68 : Scalpel ouvre désormais les images du document et y retire vraiment la zone, au lieu de la recouvrir. L'image est décodée en pixels, le morceau comblé d'après son voisinage puis fondu, et l'image réécrite : tout ce qui n'est pas dans la zone reste rigoureusement identique. Sur un fond en dégradé ou texturé, la couleur suit le voisinage au lieu de plaquer une teinte unique. JPEG, JPEG 2000 et flux compressés en gris, RVB, CMJN, ICC et palette sont couverts ; pour le reste, l'aplat de la couleur du fond prend le relais.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.68/Scalpel-Update.zip" sparkle:edSignature="OWRkceDO5pSVb4freLfsicGFlLFMMsxKPAmr9fDvBn+UVtZZu1o0Ar1tUVFbAqzPQW6OHSiw7YCDR6/tXWKBDg==" length="25155990" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.69 : nouveau bouton « Traces de modification ». Un PDF garde le souvenir de ce qu'on lui a fait, et Scalpel le lit : révisions ajoutées sans réécriture, dates qui divergent, logiciels successifs, historique d'édition conservé, filiation déclarée, signature dépassée par des octets ajoutés après elle. Des indices, pas un verdict. Le document est examiné dès son ouverture et le nom de la rangée Données incluses clignote en rouge s'il y a quelque chose à regarder. La couleur d'annotation ouvre aussi le sélecteur du système, avec sa pipette, pour prendre une teinte n'importe où à l'écran.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.69/Scalpel-Update.zip" sparkle:edSignature="LoUNJewkmx37peYdk8TxZZ9aO2Ql2hMSAK2PiTQkBOM9L0s4oA8QiuPQ74cxE6DACWEgiqbDteEAuSk42DvqAA==" length="25170985" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
