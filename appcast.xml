@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.42</title>
-      <pubDate>Sun, 06 Sep 2026 16:04:35 +0200</pubDate>
-      <sparkle:version>202609061716</sparkle:version>
-      <sparkle:shortVersionString>0.1.42</sparkle:shortVersionString>
+      <title>Version 0.1.43</title>
+      <pubDate>Tue, 08 Sep 2026 14:21:54 +0200</pubDate>
+      <sparkle:version>202609081419</sparkle:version>
+      <sparkle:shortVersionString>0.1.43</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Scalpel 0.1.42</h3><ul><li>Audit du poids avant enregistrement, gain sans perte mesuré et taille maximale souhaitée.</li><li>Choix entre copie optimisée et copie sans optimisation ; protection des fichiers signés ou chiffrés.</li><li>Priorité aux polices originales, contrôle des styles et versions, signalement des approximations.</li><li>Téléchargement des polices Nimbus depuis la source officielle, puis réutilisation hors ligne selon les droits déclarés.</li></ul>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="q/yo+Pv2oWRiTsKN2vaDOdh2pSuWahmXg8dYMlqpW75jDNAmznsxD/yCaicx+FSVSJEO/zroKNvnJUl0W/qnBw==" length="24788660" type="application/octet-stream" />
+      <description><![CDATA[<ul><li>Colonne de vignettes : réordonner, supprimer et fusionner des pages par glisser-déposer.</li><li>Annotations : surligner, souligner, barrer, entourer, pointer, poser une note ou un texte libre ; relire, retoucher et supprimer celles des autres relecteurs.</li><li>La gomme efface aussi les annotations et leurs bulles de commentaire.</li><li>Une page supprimée disparaît réellement du fichier.</li></ul>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="gbI3+B5jjURsyoRyni/+VF04SkVErtASwKNqvXVzYU26S3WmS162xnjMJei/tbQzTjiH2BEDNjnFWRdhQBaTBw==" length="24896917" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
