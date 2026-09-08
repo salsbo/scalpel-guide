@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.54</title>
-      <pubDate>Tue, 08 Sep 2026 19:01:07 +0200</pubDate>
-      <sparkle:version>202609081858</sparkle:version>
-      <sparkle:shortVersionString>0.1.54</sparkle:shortVersionString>
+      <title>Version 0.1.55</title>
+      <pubDate>Tue, 08 Sep 2026 19:08:09 +0200</pubDate>
+      <sparkle:version>202609081905</sparkle:version>
+      <sparkle:shortVersionString>0.1.55</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.54 : le curseur montre la forme qu'on va tracer, rectangle, ellipse, flèche ou note, au lieu d'une loupe. La flèche s'aperçoit comme un vecteur pendant qu'on la tire, de son point de départ vers sa pointe. Texte libre quitte la rangée Annoter, Édition a déjà Texte. Les rangées d'outils alignent leurs éléments sur le milieu de leur ligne. Le bouton Appliquer se met en surbrillance dès qu'il y a quelque chose à appliquer, et la touche de suppression retire l'objet sélectionné.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="WT8aTs74AllNdWJERyMSBPFoWvyG2+6g6FBXwJAAGchRfNMh8pp0Eoo9bzeE7QQcBKA05N2bMb980FTqzkWiCg==" length="25069134" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.55 : la flèche se pose en deux clics, un point de départ et un point d'arrivée, le vecteur suivant le curseur entre les deux. Une flèche posée se reprend : sélectionnez-la, deux poignées apparaissent à ses extrémités ; tirez l'une pour la réorienter, tirez le trait pour la déplacer entière, ou supprimez-la au clavier.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="uHSwB9KFVuhxY8EQmTZY2xzExyxzvefpJeksYW168lJTMFrAOE2pshr25oCR2mYLsd0ETiyKsg4708q8GWdBDw==" length="25075207" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
