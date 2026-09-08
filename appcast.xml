@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.70</title>
-      <pubDate>Tue, 08 Sep 2026 22:53:32 +0200</pubDate>
-      <sparkle:version>202609082250</sparkle:version>
-      <sparkle:shortVersionString>0.1.70</sparkle:shortVersionString>
+      <title>Version 0.1.71</title>
+      <pubDate>Wed, 09 Sep 2026 00:15:16 +0200</pubDate>
+      <sparkle:version>202609090012</sparkle:version>
+      <sparkle:shortVersionString>0.1.71</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.70 : reprendre une forme ou une flèche sans la déplacer ne produit plus de refus. Un clic sur une poignée déclenchait une réécriture identique, que le contrôle rejetait ensuite à juste titre ; rien n'est écrit tant que rien n'a bougé. La sélection suit désormais le document après chaque modification : elle gardait les anciennes dimensions et les poignées revenaient en arrière au geste suivant.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.70/Scalpel-Update.zip" sparkle:edSignature="Le7eZirKZdsPsv6+rsvsYsTwNz7m2cgefHnXxo8I0WUbm8BiPqNu5iYNKbo3i7lv1uD0KOGTiRhLMRCP/EvnBA==" length="25172336" type="application/octet-stream" />
+      <description><![CDATA[<p><b>Scalpel 0.1.71 : caviardage étanche.</b> Une revue de code complète a été corrigée.</p><ul><li>Le texte dessiné dans un groupe (Form XObject) est retiré du fichier comme celui de la page : il n’est plus extractible sous le bloc.</li><li>Une image retirée quitte réellement le fichier : sa ressource part avec elle.</li><li>Un tracé vectoriel effacé part en entier, coordonnées comprises.</li><li>Une image qui déborde du bloc est retouchée dans ses pixels : ce qui était sous le bloc est couvert dans l’image elle-même. Ce qui n’a pas pu l’être (groupe imbriqué, transparence, CMJN, format non lu) est signalé à l’écran.</li><li>Les images en ligne partent avec la zone.</li><li>La preuve par rendu fonctionne sur les pages tournées (la rotation était appliquée deux fois).</li><li>Les images JPEG se décodent ; 1, 2, 4 et 16 bits, palettes et /Decode inversé sont pris en charge ; CCITT et JBIG2 sont refusés proprement.</li><li>Supprimer une page retire aussi les références des champs de formulaire.</li><li>Scripts et actions : pièces jointes et sons portés par des annotations sont détectés et retirables ; une ouverture sur une page n’est plus prise pour une action inconnue.</li><li>Traces de modification : signature contrôlée sur tout le fichier, champ de signature vide distingué, PDF linéarisé non compté comme révision.</li><li>Une flèche déplacée emporte ses extrémités.</li></ul><p><b>À savoir :</b> une image retouchée est réécrite sans perte ; sur un scan JPEG pleine page, le fichier grossit nettement pour chaque page caviardée.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.71/Scalpel-Update.zip" sparkle:edSignature="rlE9CCGL+MWeASOpUva4LfrmYZvh1fJ3IxVWNwTkgTibK865rRw+v/DZM8+tT67tuafS2YNj6T/vK52tt2eMDw==" length="25185951" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
