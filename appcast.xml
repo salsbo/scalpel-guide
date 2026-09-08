@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.44</title>
-      <pubDate>Tue, 08 Sep 2026 14:44:00 +0200</pubDate>
-      <sparkle:version>202609081441</sparkle:version>
-      <sparkle:shortVersionString>0.1.44</sparkle:shortVersionString>
+      <title>Version 0.1.45</title>
+      <pubDate>Tue, 08 Sep 2026 14:59:07 +0200</pubDate>
+      <sparkle:version>202609081455</sparkle:version>
+      <sparkle:shortVersionString>0.1.45</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Export Markdown (⌘E) : titres, listes et paragraphes déduits de la mise en forme, avec l’économie de tokens annoncée par rapport au PDF envoyé tel quel à une IA.</li><li>Volet des pages ouvert par défaut ; Échap abandonne l’outil en cours.</li><li>Clic droit sur une annotation dans la page pour la supprimer, corbeille sur chaque ligne du panneau.</li><li>Outils d’annotation regroupés : type, couleur (palette de huit), taille et épaisseur dans un seul menu ; les boutons disent le geste attendu.</li><li>Enregistrer (⌘S) écrit par-dessus le fichier d’origine ; Enregistrer sous… (⇧⌘S) garde l’audit du poids.</li></ul>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="TCk7l78ymI+nJqMhmmc8KzKcL5CeN+CVc5R8ig/FGVXAxm1YcJhmTh8rA1O+YotwA9kMZ9tesmmPW0sS1ZacCQ==" length="24928570" type="application/octet-stream" />
+      <description><![CDATA[<ul><li>Caviarder : le contenu du rectangle est retiré du fichier et remplacé par un bloc noir visible.</li><li>Métadonnées du document (⌥⌘I) : afficher, modifier, tout effacer — y compris le bloc XMP et les traces des logiciels de mise en page.</li><li>Vignettes : tourner une page d’un quart de tour, extraire une sélection vers un nouveau PDF.</li><li>Comparer avec un autre PDF : les zones qui diffèrent, page par page, cliquables.</li></ul>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="Mli3moxjcur4dAdL9U2+l2g4C2gZafWuXENsAGQOGr+Z6G1Y6J2iiFI+cu2kljSsrDojvEiHDqGg6oC6lg/jDw==" length="24972475" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
