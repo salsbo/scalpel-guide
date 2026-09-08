@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.50</title>
-      <pubDate>Tue, 08 Sep 2026 16:41:54 +0200</pubDate>
-      <sparkle:version>202609081639</sparkle:version>
-      <sparkle:shortVersionString>0.1.50</sparkle:shortVersionString>
+      <title>Version 0.1.51</title>
+      <pubDate>Tue, 08 Sep 2026 17:33:25 +0200</pubDate>
+      <sparkle:version>202609081730</sparkle:version>
+      <sparkle:shortVersionString>0.1.51</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.50 : la barre d'outils passe à trois rangées et ne coupe plus les libellés en deux. Tous les outils d'annotation sont réunis dans une rangée Annoter, sans menu déroulant. Le panneau Annotations monte en tête de colonne dès qu'un outil est armé, là où s'écrit le texte d'une note ou d'un texte libre. Un clic sur une annotation posée la passe en édition, texte et couleur déjà remplis : c'est ainsi qu'on change la couleur d'un surlignage. L'export Markdown rejoint Enregistrer, et Comparer sort de la barre pour rester dans le menu Fichier.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="u3lVhj2rjQgUtj9p5CnXtQ6X5WC/rqke3j0HZxBc8nhy6wN7s1aHQn7nz4pEu0xABm81hjDHtxZzdptTZSP0Bg==" length="25037308" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.51 : les PDF s'ouvrent en onglets. Chaque onglet porte le nom du fichier et garde son propre historique ; ouvrir un second document ne remplace plus le premier et n'efface plus ses modifications en attente. Déposez plusieurs PDF dans la fenêtre, ou choisissez-en plusieurs à l'ouverture : un onglet par fichier. Un point orange signale les modifications non enregistrées, ⌘W ferme l'onglet actif.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="HhU3oS6hCEMDybFKyySXpVYAQ40TYsqVwnDBxH5Lt8VE9Xah0YOMxYXdEcMAqDfGy/ZeM86qJ2rQU86I3fk4Dw==" length="25052299" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
