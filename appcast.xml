@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.52</title>
-      <pubDate>Tue, 08 Sep 2026 17:51:20 +0200</pubDate>
-      <sparkle:version>202609081748</sparkle:version>
-      <sparkle:shortVersionString>0.1.52</sparkle:shortVersionString>
+      <title>Version 0.1.53</title>
+      <pubDate>Tue, 08 Sep 2026 18:00:32 +0200</pubDate>
+      <sparkle:version>202609081758</sparkle:version>
+      <sparkle:shortVersionString>0.1.53</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.52 : déposer un PDF sur une page déjà ouverte ouvre maintenant un nouvel onglet. La vue PDF acceptait elle-même les fichiers déposés et consommait le geste avant l'application ; elle lui repasse la main. Déposez plusieurs fichiers d'un coup, vous obtenez un onglet par fichier.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="c67XSkvj3vJz38kg/X3U1y71OIruvC9oDuAH7jVDrEzAjBQMHKC8sWZzgCKriMoA15BlSR9nEqhH/RVx2B1RAA==" length="25053976" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.53 : la barre d'outils nomme ses trois rangées, Affichage, Édition et Annoter. Nouvel outil « Déplacer une zone » : tracez un rectangle, il en est fait une image, puis choisissez de la déplacer (la zone est retirée de la page et son image se repose ailleurs), de la copier ailleurs, de l'ajouter à la banque d'images, ou les deux. Le panneau d'insertion d'image gagne un raccourci vers la banque.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="E3lGP25ciHYoqH12X+PDYWipw0gEJfoh1iMqRuhr+gZ++MtwJkqszc7/CZ/RPjQfRMX/nNkug/bOFvTzGAjWCA==" length="25064361" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
