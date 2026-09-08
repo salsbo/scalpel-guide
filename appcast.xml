@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.56</title>
-      <pubDate>Tue, 08 Sep 2026 19:22:59 +0200</pubDate>
-      <sparkle:version>202609081920</sparkle:version>
-      <sparkle:shortVersionString>0.1.56</sparkle:shortVersionString>
+      <title>Version 0.1.57</title>
+      <pubDate>Tue, 08 Sep 2026 19:30:43 +0200</pubDate>
+      <sparkle:version>202609081927</sparkle:version>
+      <sparkle:shortVersionString>0.1.57</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.56 : une zone déplacée ou copiée garde ses dimensions d'origine. Elle était reposée à la taille par défaut d'une insertion d'image, ce qui changeait sa taille au passage. Les poignées du cadre restent libres pour la redimensionner volontairement.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="q0bWGBNYRogM8kOkZQerAKreeqD4GnxBqCOMYlAJrreAHpYALgrMqHFe7NSIr9NfTQtRvobN1ZQxpYE6M5adBA==" length="25075582" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.57 : nouveau bouton « Éléments actifs ». Un PDF peut porter du code, une action qui part à l'ouverture, un fichier joint ou un appel vers un serveur, sans que rien ne se voie à l'écran. Scalpel les liste, dit ce que chacun fait, le classe suspect, à vérifier ou courant avec sa raison, et propose de le retirer, ligne par ligne ou d'un geste. Les pages sont ensuite comparées une à une : retirer de la plomberie ne doit changer aucun pixel. Ce n'est pas un antivirus : Scalpel repère des structures détournables et n'exécute jamais le code trouvé.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="v0U92t8WGrmIIrbW0bt6F4mvcP4figJc7eBJYVPNVHbtUuenbjdXfXm8LTaZIQb5j25LV7zr5hkdZW0Bn5c/Ag==" length="25106696" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
