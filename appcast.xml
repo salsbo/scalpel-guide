@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.43</title>
-      <pubDate>Tue, 08 Sep 2026 14:21:54 +0200</pubDate>
-      <sparkle:version>202609081419</sparkle:version>
-      <sparkle:shortVersionString>0.1.43</sparkle:shortVersionString>
+      <title>Version 0.1.44</title>
+      <pubDate>Tue, 08 Sep 2026 14:44:00 +0200</pubDate>
+      <sparkle:version>202609081441</sparkle:version>
+      <sparkle:shortVersionString>0.1.44</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Colonne de vignettes : réordonner, supprimer et fusionner des pages par glisser-déposer.</li><li>Annotations : surligner, souligner, barrer, entourer, pointer, poser une note ou un texte libre ; relire, retoucher et supprimer celles des autres relecteurs.</li><li>La gomme efface aussi les annotations et leurs bulles de commentaire.</li><li>Une page supprimée disparaît réellement du fichier.</li></ul>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="gbI3+B5jjURsyoRyni/+VF04SkVErtASwKNqvXVzYU26S3WmS162xnjMJei/tbQzTjiH2BEDNjnFWRdhQBaTBw==" length="24896917" type="application/octet-stream" />
+      <description><![CDATA[<ul><li>Export Markdown (⌘E) : titres, listes et paragraphes déduits de la mise en forme, avec l’économie de tokens annoncée par rapport au PDF envoyé tel quel à une IA.</li><li>Volet des pages ouvert par défaut ; Échap abandonne l’outil en cours.</li><li>Clic droit sur une annotation dans la page pour la supprimer, corbeille sur chaque ligne du panneau.</li><li>Outils d’annotation regroupés : type, couleur (palette de huit), taille et épaisseur dans un seul menu ; les boutons disent le geste attendu.</li><li>Enregistrer (⌘S) écrit par-dessus le fichier d’origine ; Enregistrer sous… (⇧⌘S) garde l’audit du poids.</li></ul>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="TCk7l78ymI+nJqMhmmc8KzKcL5CeN+CVc5R8ig/FGVXAxm1YcJhmTh8rA1O+YotwA9kMZ9tesmmPW0sS1ZacCQ==" length="24928570" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
