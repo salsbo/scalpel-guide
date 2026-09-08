@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.62</title>
-      <pubDate>Tue, 08 Sep 2026 21:35:18 +0200</pubDate>
-      <sparkle:version>202609082132</sparkle:version>
-      <sparkle:shortVersionString>0.1.62</sparkle:shortVersionString>
+      <title>Version 0.1.63</title>
+      <pubDate>Tue, 08 Sep 2026 21:41:14 +0200</pubDate>
+      <sparkle:version>202609082138</sparkle:version>
+      <sparkle:shortVersionString>0.1.63</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.62 : la banque d'images range désormais l'image telle qu'elle sera posée dans la page. Une photo portrait qui ne portait qu'un drapeau de rotation est réécrite pixels tournés, si bien que la vignette et le résultat ne peuvent plus diverger. Deux boutons de quart de tour apparaissent sur chaque vignette : la rotation est enregistrée et vaut pour toutes les insertions suivantes.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="8Pc5h+JV204h+ZlfGGbmKdKS0Z2ELOvPDbE6+kG0jNaCu7F00lcxD5so+twNv1A5ocfIHi72K5dqD4mR/5VQBQ==" length="25124565" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.63 : déplacer une zone échouait avec « Rien à gommer dans ce rectangle » dès qu'un cadre vectoriel dépassait d'un cheveu ; le geste utilise désormais la gomme tolérante. Le cadre d'insertion gagne une poignée de rotation sous son bord haut, pour tourner l'image à la souris. Le panneau de la zone capturée se simplifie : Déplacer devient un grand bouton bleu, Ajouter à la banque ne consomme plus la capture. Appliquer, Insérer et Annuler passent au rectangle à bords arrondis, plus aérés, et le bleu respire en haut comme en bas.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="6Vp+IflarQMNZMCUpXns0JFj6C4MUd+wVKaQxOvDRPZq5wAkUnMf/BcbUgh0TvPgcGcswOgVrZkeyksqq3j/Aw==" length="25133051" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
