@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.59</title>
-      <pubDate>Tue, 08 Sep 2026 21:04:40 +0200</pubDate>
-      <sparkle:version>202609082101</sparkle:version>
-      <sparkle:shortVersionString>0.1.59</sparkle:shortVersionString>
+      <title>Version 0.1.60</title>
+      <pubDate>Tue, 08 Sep 2026 21:16:54 +0200</pubDate>
+      <sparkle:version>202609082114</sparkle:version>
+      <sparkle:shortVersionString>0.1.60</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.59 : un rectangle ou une ellipse se reprend comme une flèche, par quatre poignées aux coins ; tirez un coin pour redimensionner, l'intérieur pour déplacer. Appliquer, Insérer et Annuler portent partout le même libellé et apparaissent aussi en haut à droite, à côté de l'aide, seulement quand il y a quelque chose à valider. Nouvelle rangée « Données incluses » : Scripts et actions, ex-Éléments actifs, et Métadonnées, avec une explication au survol. « Markdown » devient « Exporter vers Markdown ».</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="KbecCElTa5QNN1C7hQjdQnWqnHCL6abZ6nqv/WU9iQ9QCMUKZMFjEZHCUx27f/sebf9g7WPuwLolfyekAqKOCw==" length="25120504" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.60 : deux réparations. Modifier une flèche ou une forme échouait au contrôle avec « pixels modifiés hors zone » : déplacer une annotation change des pixels à son ancienne place comme à la nouvelle, la zone contrôlée couvre désormais les deux. Et après une rotation d'image appliquée, le bouton Appliquer restait allumé et un second clic répondait « image introuvable » : la sélection est maintenant reprise sur le document produit. La barre d'outils rend aussi de la hauteur au document.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="wIAAAAJnRE38de/GoBsdtWPxyPnlpFlwD87dAuQLkXANm5oNpJGf4H2C+azEbHBa4foiHiv2a+hEJTzAxKFfBA==" length="25120409" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
