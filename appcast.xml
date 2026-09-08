@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.45</title>
-      <pubDate>Tue, 08 Sep 2026 14:59:07 +0200</pubDate>
-      <sparkle:version>202609081455</sparkle:version>
-      <sparkle:shortVersionString>0.1.45</sparkle:shortVersionString>
+      <title>Version 0.1.46</title>
+      <pubDate>Tue, 08 Sep 2026 15:31:58 +0200</pubDate>
+      <sparkle:version>202609081529</sparkle:version>
+      <sparkle:shortVersionString>0.1.46</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Caviarder : le contenu du rectangle est retiré du fichier et remplacé par un bloc noir visible.</li><li>Métadonnées du document (⌥⌘I) : afficher, modifier, tout effacer — y compris le bloc XMP et les traces des logiciels de mise en page.</li><li>Vignettes : tourner une page d’un quart de tour, extraire une sélection vers un nouveau PDF.</li><li>Comparer avec un autre PDF : les zones qui diffèrent, page par page, cliquables.</li></ul>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="Mli3moxjcur4dAdL9U2+l2g4C2gZafWuXENsAGQOGr+Z6G1Y6J2iiFI+cu2kljSsrDojvEiHDqGg6oC6lg/jDw==" length="24972475" type="application/octet-stream" />
+      <description><![CDATA[<ul><li>Barre d’outils sur deux rangées : chaque icône porte son nom.</li><li>Gommer et Caviarder sont deux boutons distincts et nommés ; l’outil armé se colore et une phrase indique le geste attendu.</li><li>Surligner, Souligner, Barrer, Dessiner et la couleur sont accessibles directement, sans menu.</li><li>La pastille de couleur affiche enfin la vraie couleur.</li></ul>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="QuXgk23KRw/mJ0Jc01F3RyMBgAJPRlUaEdisz8JSeY6GjH8OveOBdS9JGPmMkr16iDSSuMKVUSWeMT5ZqwooDg==" length="24977844" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
