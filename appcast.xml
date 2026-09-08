@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.49</title>
-      <pubDate>Tue, 08 Sep 2026 15:59:42 +0200</pubDate>
-      <sparkle:version>202609081556</sparkle:version>
-      <sparkle:shortVersionString>0.1.49</sparkle:shortVersionString>
+      <title>Version 0.1.50</title>
+      <pubDate>Tue, 08 Sep 2026 16:41:54 +0200</pubDate>
+      <sparkle:version>202609081639</sparkle:version>
+      <sparkle:shortVersionString>0.1.50</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.49 : le caviardage propose maintenant le bloc noir ou le flou. Le flou n'est pas un calque posé sur le texte : la zone est redessinée dans une grille de quelques pixels, et le contenu part du fichier comme avec le bloc noir. Le style choisi s'applique aussi au caviardage des données sensibles.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="N2EreSV4zy4MvG8JLNAsGjwOZHWZkcDBsZsxDkCUyFT7v5glEyO2BE1J1nQnZcTplW3zMAdiFKQL0cogLP68AQ==" length="25030272" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.50 : la barre d'outils passe à trois rangées et ne coupe plus les libellés en deux. Tous les outils d'annotation sont réunis dans une rangée Annoter, sans menu déroulant. Le panneau Annotations monte en tête de colonne dès qu'un outil est armé, là où s'écrit le texte d'une note ou d'un texte libre. Un clic sur une annotation posée la passe en édition, texte et couleur déjà remplis : c'est ainsi qu'on change la couleur d'un surlignage. L'export Markdown rejoint Enregistrer, et Comparer sort de la barre pour rester dans le menu Fichier.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel-Update.zip" sparkle:edSignature="u3lVhj2rjQgUtj9p5CnXtQ6X5WC/rqke3j0HZxBc8nhy6wN7s1aHQn7nz4pEu0xABm81hjDHtxZzdptTZSP0Bg==" length="25037308" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
