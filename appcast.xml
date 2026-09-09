@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.73</title>
-      <pubDate>Wed, 09 Sep 2026 10:09:02 +0200</pubDate>
-      <sparkle:version>202609091006</sparkle:version>
-      <sparkle:shortVersionString>0.1.73</sparkle:shortVersionString>
+      <title>Version 0.1.74</title>
+      <pubDate>Wed, 09 Sep 2026 10:23:34 +0200</pubDate>
+      <sparkle:version>202609091020</sparkle:version>
+      <sparkle:shortVersionString>0.1.74</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p><b>Scalpel 0.1.73 : barre d’outils calée à gauche.</b></p><ul><li>La barre reste ferrée à gauche quand on élargit la fenêtre : elle était centrée dès qu’il y avait de la place.</li><li>Les boutons Annuler et Appliquer, en haut à droite, ne se touchent plus.</li><li>Les noms de rangées sont un peu plus petits.</li><li>« Données incluses » passe après « Annoter » : les rangées vont du geste courant vers l’inspection du fichier.</li></ul>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.73/Scalpel-Update.zip" sparkle:edSignature="fNsu75qt3DglolmiAUyBVdt5nF2ZCBPKxR6fhnvSK/zE4/J81QXczwYxa+Ri1KvXGJmsNcO/PIFRwRp9lEkiAA==" length="25186266" type="application/octet-stream" />
+      <description><![CDATA[<p><b>Scalpel 0.1.74 : les données incluses s’expliquent.</b></p><ul><li>Scripts et actions, Traces de modification et Métadonnées ouvrent une explication à la première utilisation, avec « Ne plus afficher ».</li><li>Pour les deux analyses, l’explication annonce ce qui a été trouvé dans le fichier : nombre d’éléments et combien sont suspects, ou rien.</li><li>Le résultat passe en tête du panneau de droite, avant la fiche du document.</li><li>Le rouge d’alerte était trop pâle : il est plus vif.</li></ul>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.74/Scalpel-Update.zip" sparkle:edSignature="aASjlN3IugUxSa/qa+nrZMCtOb9Bklv9SVr7fvhHr+hN9IEg1s3aia/DCURDzrOZLivYZTz2UEd0GC9DSgQrCg==" length="25189993" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
