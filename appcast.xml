@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.77</title>
-      <pubDate>Wed, 09 Sep 2026 13:39:40 +0200</pubDate>
-      <sparkle:version>202609091336</sparkle:version>
-      <sparkle:shortVersionString>0.1.77</sparkle:shortVersionString>
+      <title>Version 0.1.78</title>
+      <pubDate>Wed, 09 Sep 2026 13:58:39 +0200</pubDate>
+      <sparkle:version>202609091355</sparkle:version>
+      <sparkle:shortVersionString>0.1.78</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p><b>Scalpel 0.1.77 : fond uniforme sous la barre d’outils.</b></p><ul><li>Sur macOS 26 la barre d’outils est translucide et laisse voir ce qui passe dessous. Ce fond était de deux couleurs, avec la coupure au milieu des outils.</li><li>Sans document ouvert, la fenêtre garde sa couleur de fond au lieu du gris prévu pour entourer une page.</li><li>Avec un document, la bande des onglets prend le matériau des barres du système et court sur toute la largeur : le bandeau est continu et le blanc commence en dessous.</li></ul>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.77/Scalpel-Update.zip" sparkle:edSignature="sBFtg48FfcXNaFP1vXbx2Q+kIPWb1EU4hj/Wj6kcENFZFHY/6KEnDAfXTKYUk5LRiU3vIBiwnDr86ooNYOI8Bg==" length="25179981" type="application/octet-stream" />
+      <description><![CDATA[<p><b>Scalpel 0.1.78 : un vrai diagnostic d’intégrité.</b></p><ul><li>« Scripts et actions » et « Traces de modification » n’en font plus qu’un : <b>Analyser l’intégrité du document</b> (⌘⇧Y).</li><li>Le diagnostic dit ce qu’il a cherché autant que ce qu’il a trouvé : code JavaScript, actions au chargement, lancement de programme, pièces jointes, sons et médias, envois vers l’extérieur, liens web, formulaire XFA, en-tête du fichier, révisions, dates, logiciels, historique d’édition, filiation, signature, protection. Chaque point porte son constat, y compris « rien vu ».</li><li>Le résumé annonce combien de points sont sans rien à signaler et nomme ceux qui méritent un second regard.</li><li>Nouvelle vérification : l’en-tête du fichier, qui doit commencer par %PDF dès le premier octet.</li><li>Ce qui est retirable se retire toujours depuis le panneau : le diagnostic constate, vous décidez.</li></ul>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.78/Scalpel-Update.zip" sparkle:edSignature="XMnkMSn025y5ZXfbESmi+kw+Yasw7QnWQhlOY7q22CYu0DtOUICtMZC94NMRNAogx4kLCRz8AFC8Yb3rnVcDCQ==" length="25194164" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
