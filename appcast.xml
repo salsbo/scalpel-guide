@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.76</title>
-      <pubDate>Wed, 09 Sep 2026 13:25:45 +0200</pubDate>
-      <sparkle:version>202609091322</sparkle:version>
-      <sparkle:shortVersionString>0.1.76</sparkle:shortVersionString>
+      <title>Version 0.1.77</title>
+      <pubDate>Wed, 09 Sep 2026 13:39:40 +0200</pubDate>
+      <sparkle:version>202609091336</sparkle:version>
+      <sparkle:shortVersionString>0.1.77</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p><b>Scalpel 0.1.76 : correction des régressions de la 0.1.75.</b></p><ul><li>Les vignettes de pages ne sont plus écrasées et le panneau de droite n’est plus tronqué : la colonne d’inspection du système se superposait au partage de la fenêtre au lieu d’y entrer.</li><li>« Déplacer une zone » revient dans la barre : le bouton Image est devenu un menu, comme Annoter, avec insérer une image, la banque d’images et déplacer une zone.</li><li>Le panneau de droite se replie toujours par ⌥⌘0.</li></ul>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.76/Scalpel-Update.zip" sparkle:edSignature="XVB21j6KKsm37hYmaTEL4bjCr/z/fyf9YHVt53lu3nh1tIIs6Nlk9j5qRTz9poqJVa0V+XU4oDbQCGvX0UhADQ==" length="25179606" type="application/octet-stream" />
+      <description><![CDATA[<p><b>Scalpel 0.1.77 : fond uniforme sous la barre d’outils.</b></p><ul><li>Sur macOS 26 la barre d’outils est translucide et laisse voir ce qui passe dessous. Ce fond était de deux couleurs, avec la coupure au milieu des outils.</li><li>Sans document ouvert, la fenêtre garde sa couleur de fond au lieu du gris prévu pour entourer une page.</li><li>Avec un document, la bande des onglets prend le matériau des barres du système et court sur toute la largeur : le bandeau est continu et le blanc commence en dessous.</li></ul>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.77/Scalpel-Update.zip" sparkle:edSignature="sBFtg48FfcXNaFP1vXbx2Q+kIPWb1EU4hj/Wj6kcENFZFHY/6KEnDAfXTKYUk5LRiU3vIBiwnDr86ooNYOI8Bg==" length="25179981" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
