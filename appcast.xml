@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.72</title>
-      <pubDate>Wed, 09 Sep 2026 09:48:16 +0200</pubDate>
-      <sparkle:version>202609090945</sparkle:version>
-      <sparkle:shortVersionString>0.1.72</sparkle:shortVersionString>
+      <title>Version 0.1.73</title>
+      <pubDate>Wed, 09 Sep 2026 10:09:02 +0200</pubDate>
+      <sparkle:version>202609091006</sparkle:version>
+      <sparkle:shortVersionString>0.1.73</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p><b>Scalpel 0.1.72 : barre d’outils plus lisible.</b></p><ul><li>Les quatre noms de rangées (Affichage, Édition, Données incluses, Annoter) sont écrits plus gros et partent du bord gauche de la fenêtre.</li></ul>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.72/Scalpel-Update.zip" sparkle:edSignature="HPd//pphV6oaKMIkpIlgaD7xh6/BTEAqHTgVGhdvhf3u04TOSqEYfAzo4PEYba/hBrVhCKeP9KxL264kPh9yBw==" length="25185780" type="application/octet-stream" />
+      <description><![CDATA[<p><b>Scalpel 0.1.73 : barre d’outils calée à gauche.</b></p><ul><li>La barre reste ferrée à gauche quand on élargit la fenêtre : elle était centrée dès qu’il y avait de la place.</li><li>Les boutons Annuler et Appliquer, en haut à droite, ne se touchent plus.</li><li>Les noms de rangées sont un peu plus petits.</li><li>« Données incluses » passe après « Annoter » : les rangées vont du geste courant vers l’inspection du fichier.</li></ul>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.73/Scalpel-Update.zip" sparkle:edSignature="fNsu75qt3DglolmiAUyBVdt5nF2ZCBPKxR6fhnvSK/zE4/J81QXczwYxa+Ri1KvXGJmsNcO/PIFRwRp9lEkiAA==" length="25186266" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
