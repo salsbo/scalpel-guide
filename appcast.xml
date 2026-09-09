@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.74</title>
-      <pubDate>Wed, 09 Sep 2026 10:23:34 +0200</pubDate>
-      <sparkle:version>202609091020</sparkle:version>
-      <sparkle:shortVersionString>0.1.74</sparkle:shortVersionString>
+      <title>Version 0.1.75</title>
+      <pubDate>Wed, 09 Sep 2026 13:13:50 +0200</pubDate>
+      <sparkle:version>202609091311</sparkle:version>
+      <sparkle:shortVersionString>0.1.75</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p><b>Scalpel 0.1.74 : les données incluses s’expliquent.</b></p><ul><li>Scripts et actions, Traces de modification et Métadonnées ouvrent une explication à la première utilisation, avec « Ne plus afficher ».</li><li>Pour les deux analyses, l’explication annonce ce qui a été trouvé dans le fichier : nombre d’éléments et combien sont suspects, ou rien.</li><li>Le résultat passe en tête du panneau de droite, avant la fiche du document.</li><li>Le rouge d’alerte était trop pâle : il est plus vif.</li></ul>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.74/Scalpel-Update.zip" sparkle:edSignature="aASjlN3IugUxSa/qa+nrZMCtOb9Bklv9SVr7fvhHr+hN9IEg1s3aia/DCURDzrOZLivYZTz2UEd0GC9DSgQrCg==" length="25189993" type="application/octet-stream" />
+      <description><![CDATA[<p><b>Scalpel 0.1.75 : l’interface passe aux conventions macOS.</b> C’est une refonte de l’interface, pas une correction.</p><ul><li>Une seule barre d’outils, celle du système, avec l’icône et le nom sous chaque bouton, à la place des quatre rangées.</li><li>Chaque outil a maintenant sa commande et son raccourci dans la barre de menus : Édition du document, Annoter, Données incluses.</li><li>Les options de l’outil armé s’affichent dans une bande sous la barre, avec la consigne du moment, comme dans Aperçu.</li><li>Le panneau de droite devient la colonne d’inspection du système : ⌥⌘0 pour la replier.</li><li>Ces outils sont désormais dans les menus : Déplacer une zone, Banque d’images, Zoom sur une zone, Enregistrer sous, Export Markdown, Reconnaître le texte, Données sensibles.</li></ul><p>La version précédente reste téléchargeable sur la page des versions si ce nouvel agencement ne convient pas.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.75/Scalpel-Update.zip" sparkle:edSignature="bt2FP+bImoVEu3Its/u+lTMoB6vx/XKfWQE4MV0/hD+JMiKKeOIoTRrjmH1ydcSNuVl4WuLNoUG13Oi3NpTZAA==" length="25176772" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
