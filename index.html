@@ -86,6 +86,18 @@
   .note { border-left: 3px solid var(--accent); background: var(--surface); padding: 12px 16px; border-radius: 0 10px 10px 0; color: var(--muted); font-size: 0.95rem; }
   footer { padding: 40px 0 60px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.95rem; }
   a { color: var(--accent-deep); }
+  .updates { text-align: center; }
+  .updates > div > p { max-width: 650px; margin: 0 auto 12px; color: var(--muted); }
+  .updates-form { max-width: 620px; margin: 24px auto 0; }
+  .updates-fields { display: flex; gap: 10px; }
+  .updates-fields input[type="email"] { min-width: 0; flex: 1; border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: var(--ink); font: inherit; padding: 12px 14px; }
+  .updates-fields input[type="email"]:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .updates-fields button { border: 0; border-radius: 10px; background: var(--accent); color: #0a0f0d; cursor: pointer; font-family: var(--display); font-size: .95rem; font-weight: 700; padding: 12px 18px; }
+  .updates-fields button:disabled { cursor: wait; opacity: .6; }
+  .updates-privacy { color: var(--muted); font-size: .78rem; line-height: 1.5; }
+  .updates-status { min-height: 1.5em; color: var(--accent-deep); font-size: .9rem; }
+  .updates-hp { position: absolute; left: -10000px; }
+  @media (max-width: 560px) { .updates-fields { flex-direction: column; } }
 </style>
 </head>
 <body>
@@ -112,7 +124,7 @@
       <h1>Retouchez un PDF sans rien casser</h1>
       <p class="lede">Scalpel modifie un mot, une date, un montant ou une image dans un PDF. Tout le reste du document reste identique, octet pour octet, et l'application le prouve.</p>
       <div class="cta-row">
-        <a class="cta" href="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel.dmg" download>
+        <a class="cta" href="https://go.besle.org/go/apps/scalpel/download?source=scalpel-site">
           <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1a.75.75 0 0 1 .75.75v6.69l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06l2.22 2.22V1.75A.75.75 0 0 1 8 1ZM2.75 13a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H2.75Z"/></svg>
           Télécharger pour Mac
         </a>
@@ -123,7 +135,7 @@
       <h1>Edit a PDF without breaking anything</h1>
       <p class="lede">Scalpel changes a word, a date, an amount or an image inside a PDF. Everything else stays byte-for-byte identical, and the app proves it.</p>
       <div class="cta-row">
-        <a class="cta" href="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel.dmg" download>
+        <a class="cta" href="https://go.besle.org/go/apps/scalpel/download?source=scalpel-site">
           <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1a.75.75 0 0 1 .75.75v6.69l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06l2.22 2.22V1.75A.75.75 0 0 1 8 1ZM2.75 13a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H2.75Z"/></svg>
           Download for Mac
         </a>
@@ -169,7 +181,7 @@
     <div class="fr">
       <h2>Installer Scalpel</h2>
       <ol>
-        <li>Téléchargez <a href="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel.dmg">Scalpel.dmg</a> et ouvrez-le.</li>
+        <li>Téléchargez <a href="https://go.besle.org/go/apps/scalpel/download?source=scalpel-site-install">Scalpel.dmg</a> et ouvrez-le.</li>
         <li>Glissez <strong>Scalpel</strong> dans le dossier <strong>Applications</strong>.</li>
         <li>Lancez Scalpel depuis Applications ou Spotlight. L'application est signée et notarisée par Apple : aucun avertissement de sécurité.</li>
       </ol>
@@ -178,7 +190,7 @@
     <div class="en">
       <h2>Install Scalpel</h2>
       <ol>
-        <li>Download <a href="https://github.com/salsbo/scalpel-guide/releases/latest/download/Scalpel.dmg">Scalpel.dmg</a> and open it.</li>
+        <li>Download <a href="https://go.besle.org/go/apps/scalpel/download?source=scalpel-site-install">Scalpel.dmg</a> and open it.</li>
         <li>Drag <strong>Scalpel</strong> into the <strong>Applications</strong> folder.</li>
         <li>Launch Scalpel from Applications or Spotlight. The app is signed and notarized by Apple: no security warning.</li>
       </ol>
@@ -249,6 +261,31 @@
     </div>
   </section>
 
+  <section class="updates">
+    <div class="fr">
+      <h2>Être informé des nouveautés</h2>
+      <p>Je vous écrirai seulement lorsqu’il y a une nouvelle version ou une information utile sur Scalpel. Votre adresse ne sera ni vendue ni partagée.</p>
+    </div>
+    <div class="en">
+      <h2>Keep up with Scalpel</h2>
+      <p>I will only write when there is a new version or useful news about Scalpel. Your address will not be sold or shared.</p>
+    </div>
+    <form class="updates-form" id="updates-form">
+      <div class="updates-fields">
+        <label class="updates-hp" for="updates-email">Email address</label>
+        <input id="updates-email" name="email" type="email" autocomplete="email" maxlength="254" required placeholder="vous@exemple.fr">
+        <div class="updates-hp" aria-hidden="true"><label for="updates-website">Site web</label><input id="updates-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <button type="submit"><span class="fr">M’informer</span><span class="en">Keep me posted</span></button>
+      </div>
+      <p class="updates-privacy">
+        <span class="fr">En envoyant votre adresse, vous acceptez de recevoir les nouvelles de Scalpel. Désinscription à tout moment.</span>
+        <span class="en">By sending your address, you agree to receive Scalpel updates. Unsubscribe at any time.</span>
+        <a href="https://dahouse.fr/confidentialite#applications"><span class="fr">Données et confidentialité</span><span class="en">Data and privacy</span></a>.
+      </p>
+      <p class="updates-status" id="updates-status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
   <footer>
     <div class="fr">
       <p><strong>Scalpel</strong> — retouche chirurgicale de PDF pour Mac. Vos documents restent sur votre Mac.</p>
@@ -274,6 +311,28 @@
     document.documentElement.setAttribute('data-theme', cur === 'dark' ? 'light' : 'dark');
   }
   setLang((navigator.language || 'fr').toLowerCase().startsWith('en') ? 'en' : 'fr');
+
+  (function () {
+    var form = document.getElementById('updates-form');
+    var status = document.getElementById('updates-status');
+    var button = form.querySelector('button');
+    var startedAt = Date.now();
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      var data = new FormData(form);
+      var lang = document.documentElement.getAttribute('data-lang') === 'en' ? 'en' : 'fr';
+      button.disabled = true;
+      status.textContent = lang === 'en' ? 'Saving…' : 'Enregistrement…';
+      fetch('https://go.besle.org/api/app-updates', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ app: 'scalpel', email: data.get('email'), website: data.get('website'), source: 'scalpel-site', locale: lang, startedAt: startedAt })
+      })
+        .then(function (response) { return response.json().then(function (body) { if (!response.ok) throw new Error(body.error || 'Erreur'); return body; }); })
+        .then(function (body) { form.reset(); status.textContent = body.message; button.disabled = false; startedAt = Date.now(); })
+        .catch(function (error) { status.textContent = lang === 'en' ? 'The address could not be saved.' : (error.message || 'L’adresse n’a pas pu être enregistrée.'); button.disabled = false; });
+    });
+  })();
 
   // Compteur : somme des download_count des DMG sur toutes les releases publiques.
   // Les archives de mise a jour (Scalpel-Update.zip) sont exclues. Cache 10 min.
