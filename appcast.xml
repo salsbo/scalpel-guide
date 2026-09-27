@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.78</title>
-      <pubDate>Wed, 09 Sep 2026 13:58:39 +0200</pubDate>
-      <sparkle:version>202609091355</sparkle:version>
-      <sparkle:shortVersionString>0.1.78</sparkle:shortVersionString>
+      <title>Version 0.1.79</title>
+      <pubDate>Sun, 27 Sep 2026 23:52:21 +0200</pubDate>
+      <sparkle:version>202609272349</sparkle:version>
+      <sparkle:shortVersionString>0.1.79</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p><b>Scalpel 0.1.78 : un vrai diagnostic d’intégrité.</b></p><ul><li>« Scripts et actions » et « Traces de modification » n’en font plus qu’un : <b>Analyser l’intégrité du document</b> (⌘⇧Y).</li><li>Le diagnostic dit ce qu’il a cherché autant que ce qu’il a trouvé : code JavaScript, actions au chargement, lancement de programme, pièces jointes, sons et médias, envois vers l’extérieur, liens web, formulaire XFA, en-tête du fichier, révisions, dates, logiciels, historique d’édition, filiation, signature, protection. Chaque point porte son constat, y compris « rien vu ».</li><li>Le résumé annonce combien de points sont sans rien à signaler et nomme ceux qui méritent un second regard.</li><li>Nouvelle vérification : l’en-tête du fichier, qui doit commencer par %PDF dès le premier octet.</li><li>Ce qui est retirable se retire toujours depuis le panneau : le diagnostic constate, vous décidez.</li></ul>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.78/Scalpel-Update.zip" sparkle:edSignature="XMnkMSn025y5ZXfbESmi+kw+Yasw7QnWQhlOY7q22CYu0DtOUICtMZC94NMRNAogx4kLCRz8AFC8Yb3rnVcDCQ==" length="25194164" type="application/octet-stream" />
+      <description><![CDATA[<p>Corrige un plantage au changement d’un titre dont la police n’est pas incluse dans le PDF.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.79/Scalpel-Update.zip" sparkle:edSignature="RUY7eCt7a9rTKXyiSeoS/OH6SimHrjO2OX245bJgdty2sk039ahNA0zB8r3MMcZkT8BNLYkqBA7LNnGdnQ4yAg==" length="25187867" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
