@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.79</title>
-      <pubDate>Sun, 27 Sep 2026 23:52:21 +0200</pubDate>
-      <sparkle:version>202609272349</sparkle:version>
-      <sparkle:shortVersionString>0.1.79</sparkle:shortVersionString>
+      <title>Version 0.1.80</title>
+      <pubDate>Thu, 01 Oct 2026 20:34:24 +0200</pubDate>
+      <sparkle:version>202610012029</sparkle:version>
+      <sparkle:shortVersionString>0.1.80</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Corrige un plantage au changement d’un titre dont la police n’est pas incluse dans le PDF.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.79/Scalpel-Update.zip" sparkle:edSignature="RUY7eCt7a9rTKXyiSeoS/OH6SimHrjO2OX245bJgdty2sk039ahNA0zB8r3MMcZkT8BNLYkqBA7LNnGdnQ4yAg==" length="25187867" type="application/octet-stream" />
+      <description><![CDATA[<p>Un texte de remplacement long passe à la ligne au lieu de sortir de la fenêtre.</p><p>Corrige un plantage pendant la saisie d’un remplacement long.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.80/Scalpel-Update.zip" sparkle:edSignature="ZhDxQU1aqp0y4u9PQgMWbPncuhl5bOxqYIx+OEShfwrANgxfAfiRs9w5KQLEnTEEFIzTcDoEiJu0gKLjdHvLCQ==" length="25195683" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
