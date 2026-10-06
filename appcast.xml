@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.80</title>
-      <pubDate>Thu, 01 Oct 2026 20:34:24 +0200</pubDate>
-      <sparkle:version>202610012029</sparkle:version>
-      <sparkle:shortVersionString>0.1.80</sparkle:shortVersionString>
+      <title>Version 0.1.81</title>
+      <pubDate>Tue, 06 Oct 2026 12:05:52 +0200</pubDate>
+      <sparkle:version>202610061202</sparkle:version>
+      <sparkle:shortVersionString>0.1.81</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Un texte de remplacement long passe à la ligne au lieu de sortir de la fenêtre.</p><p>Corrige un plantage pendant la saisie d’un remplacement long.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.80/Scalpel-Update.zip" sparkle:edSignature="ZhDxQU1aqp0y4u9PQgMWbPncuhl5bOxqYIx+OEShfwrANgxfAfiRs9w5KQLEnTEEFIzTcDoEiJu0gKLjdHvLCQ==" length="25195683" type="application/octet-stream" />
+      <description><![CDATA[<p>Scalpel 0.1.81. Details sur <a href="https://scalpel.besle.org">scalpel.besle.org</a>.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.81/Scalpel-Update.zip" sparkle:edSignature="PiF5RgIP7+rAV6Ps4iOkxjfgdb51I0GcU7lcIu01DLFXsrlZxeS7DAEQCoSWex6btOZeNU0D/ELM/TRun5tjCQ==" length="25199001" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
