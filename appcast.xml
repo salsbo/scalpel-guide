@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.81</title>
-      <pubDate>Tue, 06 Oct 2026 12:05:52 +0200</pubDate>
-      <sparkle:version>202610061202</sparkle:version>
-      <sparkle:shortVersionString>0.1.81</sparkle:shortVersionString>
+      <title>Version 0.1.82</title>
+      <pubDate>Thu, 08 Oct 2026 18:11:39 +0200</pubDate>
+      <sparkle:version>202610081808</sparkle:version>
+      <sparkle:shortVersionString>0.1.82</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Scalpel 0.1.81. Details sur <a href="https://scalpel.besle.org">scalpel.besle.org</a>.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.81/Scalpel-Update.zip" sparkle:edSignature="PiF5RgIP7+rAV6Ps4iOkxjfgdb51I0GcU7lcIu01DLFXsrlZxeS7DAEQCoSWex6btOZeNU0D/ELM/TRun5tjCQ==" length="25199001" type="application/octet-stream" />
+      <description><![CDATA[<p>La gomme peut maintenant effacer un détail dans une image ou un scan. Les pixels sélectionnés sont remplacés par les couleurs du voisinage.</p><p>Le contrôle des images JPEG compare les pixels en couleur, sans tolérance ajoutée.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.82/Scalpel-Update.zip" sparkle:edSignature="DbRuibAIDI2tRUhZArtiQcR2A2mml3GH/WjAXAbQpYZSqkJJ2X41KTHE5xB2DtZc9f3jEjJM0CU+WzAsVVxqBg==" length="25200489" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
