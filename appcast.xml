@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.82</title>
-      <pubDate>Thu, 08 Oct 2026 18:11:39 +0200</pubDate>
-      <sparkle:version>202610081808</sparkle:version>
-      <sparkle:shortVersionString>0.1.82</sparkle:shortVersionString>
+      <title>Version 0.1.83</title>
+      <pubDate>Wed, 14 Oct 2026 08:42:25 +0200</pubDate>
+      <sparkle:version>202610140838</sparkle:version>
+      <sparkle:shortVersionString>0.1.83</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>La gomme peut maintenant effacer un détail dans une image ou un scan. Les pixels sélectionnés sont remplacés par les couleurs du voisinage.</p><p>Le contrôle des images JPEG compare les pixels en couleur, sans tolérance ajoutée.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.82/Scalpel-Update.zip" sparkle:edSignature="DbRuibAIDI2tRUhZArtiQcR2A2mml3GH/WjAXAbQpYZSqkJJ2X41KTHE5xB2DtZc9f3jEjJM0CU+WzAsVVxqBg==" length="25200489" type="application/octet-stream" />
+      <description><![CDATA[<p>Enregistrer et Annuler ne restent plus grisés après une modification.</p><p>Une image ou un texte posé sur la page mais pas encore inséré n’est plus perdu au clic ailleurs : Scalpel demande Insérer, Annuler ou Abandonner. Enregistrer insère d’abord l’élément, puis écrit le fichier.</p><p>Fermer un onglet ou quitter Scalpel avec des modifications non enregistrées pose la question avant de les perdre.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.83/Scalpel-Update.zip" sparkle:edSignature="H/zfEQoXwcTB/VB3wZ3aNWbsGAEZi5B05vH/zqgnr11Z+X9wpGnnpEvuYHhKxau7FZm8gy9M6MWuct5vYTJpBA==" length="25209299" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
