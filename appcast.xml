@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.83</title>
-      <pubDate>Wed, 14 Oct 2026 08:42:25 +0200</pubDate>
-      <sparkle:version>202610140838</sparkle:version>
-      <sparkle:shortVersionString>0.1.83</sparkle:shortVersionString>
+      <title>Version 0.1.84</title>
+      <pubDate>Wed, 14 Oct 2026 10:54:13 +0200</pubDate>
+      <sparkle:version>202610141050</sparkle:version>
+      <sparkle:shortVersionString>0.1.84</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Enregistrer et Annuler ne restent plus grisés après une modification.</p><p>Une image ou un texte posé sur la page mais pas encore inséré n’est plus perdu au clic ailleurs : Scalpel demande Insérer, Annuler ou Abandonner. Enregistrer insère d’abord l’élément, puis écrit le fichier.</p><p>Fermer un onglet ou quitter Scalpel avec des modifications non enregistrées pose la question avant de les perdre.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.83/Scalpel-Update.zip" sparkle:edSignature="H/zfEQoXwcTB/VB3wZ3aNWbsGAEZi5B05vH/zqgnr11Z+X9wpGnnpEvuYHhKxau7FZm8gy9M6MWuct5vYTJpBA==" length="25209299" type="application/octet-stream" />
+      <description><![CDATA[<p>Fermer un onglet ou quitter pendant un calcul explique maintenant qu’il faut attendre, au lieu de proposer un bouton Enregistrer qui ne faisait rien.</p><p>Choisir Insérer une image ou Texte demande ce que devient une image, un texte ou un remplacement pas encore appliqué.</p><p>L’aide décrit le nouvel enregistrement : ⌘S écrit par-dessus le fichier d’origine.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.84/Scalpel-Update.zip" sparkle:edSignature="C80mpe5QIY/p48RJguNsHxdpaMjP30ocROVIh1i2jgUUELDqq5Jp9I1qadtqjGPMv4dM7uX3TRf/GE+w1wAaCQ==" length="25209816" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
