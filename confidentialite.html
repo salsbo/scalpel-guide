@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Politique de confidentialité de Scalpel : vos PDF restent sur votre Mac.">
+<title>Scalpel : confidentialité</title>
+<link rel="icon" href="scalpel.png">
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap");
+
+  :root {
+    --paper: #ffffff;
+    --ink: #0a0f0d;
+    --muted: #5b6560;
+    --line: #e4e7e3;
+    --accent: #00c16a;
+    --accent-deep: #0a3d2c;
+    --card: #f5f7f4;
+    --surface: #f4f5f2;
+    --kbd-bg: #ffffff;
+    --kbd-shadow: rgba(10, 15, 13, 0.18);
+    --header: #0a0f0d;
+    --on-header: #f4f5f2;
+    --shadow-1: 0 8px 30px rgba(10, 15, 13, 0.08);
+    --display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+    --body: "Archivo", ui-sans-serif, system-ui, sans-serif;
+    --mono: "Space Mono", ui-monospace, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0a0f0d; --ink: #f4f5f2; --muted: #aab5af; --line: rgba(244, 245, 242, 0.14);
+      --accent: #2de38f; --accent-deep: #2de38f; --card: #121815; --surface: #18201c;
+      --kbd-bg: #18201c; --kbd-shadow: rgba(0, 0, 0, 0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0a0f0d; --ink: #f4f5f2; --muted: #aab5af; --line: rgba(244,245,242,0.14);
+    --accent: #2de38f; --accent-deep: #2de38f; --card: #121815; --surface: #18201c;
+    --kbd-bg: #18201c; --kbd-shadow: rgba(0,0,0,0.5);
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; padding-top: 76px; background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+  :root[data-lang="fr"] .en { display: none; }
+  :root[data-lang="en"] .fr { display: none; }
+  .wrap { max-width: 840px; margin: 0 auto; padding: 0 24px; }
+
+  .topbar { position: fixed; inset: 0 0 auto; z-index: 20; min-height: 76px; display: flex; align-items: center; justify-content: space-between; padding: 14px max(24px, calc((100vw - 1080px) / 2)); background: var(--header); color: var(--on-header); border-bottom: 1px solid rgba(244, 245, 242, 0.12); }
+  .brand { display: flex; align-items: center; gap: 10px; color: var(--on-header); font-family: var(--display); font-weight: 700; letter-spacing: -0.01em; }
+  .brand img { width: 26px; height: 26px; border-radius: 6px; }
+  .controls { display: flex; gap: 8px; align-items: center; }
+  .seg { display: inline-flex; background: rgba(244,245,242,0.08); border: 1px solid rgba(244,245,242,0.16); border-radius: 999px; padding: 2px; }
+  .seg button { font: inherit; font-size: 13px; font-weight: 600; border: 0; background: transparent; color: #aab5af; padding: 5px 12px; border-radius: 999px; cursor: pointer; }
+  .seg button[aria-pressed="true"] { background: var(--accent); color: #0a0f0d; }
+  .iconbtn { font-size: 15px; line-height: 1; border: 1px solid rgba(244,245,242,0.16); background: rgba(244,245,242,0.08); color: var(--on-header); width: 34px; height: 30px; border-radius: 999px; cursor: pointer; }
+
+  .hero { text-align: center; padding: 88px 0 56px; }
+  .publications-back { display: inline-flex; align-items: center; gap: 7px; margin: 0 auto 26px; padding: 8px 15px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--accent-deep); font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-decoration: none; text-transform: uppercase; }
+  .publications-back:hover { color: #0a0f0d; background: var(--accent); border-color: var(--accent); }
+  .applogo { width: 112px; height: 112px; margin: 0 auto 30px; border-radius: 26px; box-shadow: 0 18px 42px -18px rgba(0, 193, 106, 0.65); display: block; }
+  h1 { font-family: var(--display); font-weight: 700; letter-spacing: -0.04em; font-size: clamp(2.6rem, 7vw, 5rem); line-height: 1; margin: 0 0 20px; text-wrap: balance; }
+  .lede { font-size: clamp(1.1rem, 2.4vw, 1.3rem); color: var(--muted); max-width: 44ch; margin: 0 auto; text-wrap: balance; }
+  .cta-row { display: flex; flex-wrap: wrap; gap: 10px 16px; justify-content: center; align-items: center; margin-top: 30px; }
+  .cta { display: inline-flex; align-items: center; gap: 9px; font-family: var(--display); font-weight: 700; font-size: 1.02rem; background: var(--accent); color: #0a0f0d; text-decoration: none; padding: 13px 24px; border-radius: 10px; box-shadow: 0 12px 28px -14px rgba(0, 193, 106, 0.75); transition: transform 0.12s ease; }
+  .cta:hover { transform: translateY(-2px); }
+  .cta svg { width: 18px; height: 18px; fill: currentColor; }
+  .cta-note { font-size: 0.9rem; color: var(--muted); }
+  .dlcount { margin: 16px 0 0; font-size: 0.95rem; color: var(--muted); }
+  .dlcount .dlnum { font-family: var(--display); font-weight: 700; color: var(--accent-deep); font-variant-numeric: tabular-nums; }
+  .badges { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 22px; }
+  .badge { font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 6px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); }
+
+  section { padding: 40px 0; border-top: 1px solid var(--line); }
+  h2 { font-family: var(--display); font-weight: 700; letter-spacing: -0.02em; font-size: 1.7rem; margin: 0 0 14px; }
+  h3 { font-family: var(--display); font-size: 1.1rem; margin: 22px 0 6px; }
+  p { margin: 0 0 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-top: 18px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 18px 14px; }
+  .card strong { font-family: var(--display); display: block; margin-bottom: 6px; }
+  .card p { color: var(--muted); font-size: 0.95rem; margin: 0; }
+  ol, ul { padding-left: 22px; margin: 0 0 12px; }
+  li { margin: 4px 0; }
+  kbd { font-family: var(--mono); font-size: 0.8em; background: var(--kbd-bg); border: 1px solid var(--line); border-radius: 6px; padding: 2px 7px; box-shadow: 0 1px 0 var(--kbd-shadow); }
+  .note { border-left: 3px solid var(--accent); background: var(--surface); padding: 12px 16px; border-radius: 0 10px 10px 0; color: var(--muted); font-size: 0.95rem; }
+  footer { padding: 40px 0 60px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.95rem; }
+  a { color: var(--accent-deep); }
+  .updates { text-align: center; }
+  .updates > div > p { max-width: 650px; margin: 0 auto 12px; color: var(--muted); }
+  .updates-form { max-width: 620px; margin: 24px auto 0; }
+  .updates-fields { display: flex; gap: 10px; }
+  .updates-fields input[type="email"] { min-width: 0; flex: 1; border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: var(--ink); font: inherit; padding: 12px 14px; }
+  .updates-fields input[type="email"]:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .updates-fields button { border: 0; border-radius: 10px; background: var(--accent); color: #0a0f0d; cursor: pointer; font-family: var(--display); font-size: .95rem; font-weight: 700; padding: 12px 18px; }
+  .updates-fields button:disabled { cursor: wait; opacity: .6; }
+  .updates-privacy { color: var(--muted); font-size: .78rem; line-height: 1.5; }
+  .updates-status { min-height: 1.5em; color: var(--accent-deep); font-size: .9rem; }
+  .updates-hp { position: absolute; left: -10000px; }
+  @media (max-width: 560px) { .updates-fields { flex-direction: column; } }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="./" style="text-decoration:none"><img src="scalpel.png" alt="">Scalpel</a>
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Language">
+      <button id="fr" aria-pressed="true" onclick="setLang('fr')">FR</button>
+      <button id="en" aria-pressed="false" onclick="setLang('en')">EN</button>
+    </div>
+    <button class="iconbtn" aria-label="Theme" onclick="toggleTheme()">◐</button>
+  </div>
+</div>
+
+<div class="wrap">
+  <header class="hero">
+    <a class="publications-back" href="./">
+      <span aria-hidden="true">←</span>
+      <span class="fr">Scalpel</span>
+      <span class="en">Scalpel</span>
+    </a>
+
+    <div class="fr">
+      <h1>Politique de confidentialité</h1>
+      <p class="lede">Mise à jour le 20 octobre 2026.</p>
+    </div>
+    <div class="en">
+      <h1>Privacy policy</h1>
+      <p class="lede">Updated on 20 October 2026.</p>
+    </div>
+  </header>
+
+  <section class="fr">
+    <p>Scalpel est une application de Julien Robert, DaHouse. Contact : <a href="mailto:jrobert@besle.org">jrobert@besle.org</a>.</p>
+    <h2>Vos documents</h2>
+    <p>Scalpel ouvre et modifie vos PDF sur votre Mac. Aucun document n'est envoyé à DaHouse ni à quelqu'un d'autre.</p>
+    <h2>Ce qui peut quitter votre Mac</h2>
+    <h3>Les polices libres</h3>
+    <p>Quand une police manque, Scalpel peut télécharger une police libre depuis les dépôts publics Google Fonts et URW, hébergés sur GitHub, et le texte de sa licence depuis openfontlicense.org. La demande ne contient que le nom de la famille de police : ni le PDF, ni son nom, ni son texte. Comme pour toute page web, ces sites voient l'adresse IP de votre connexion. Ce téléchargement est activé par défaut. Il se coupe dans les réglages de Scalpel (« Télécharger automatiquement les polices libres manquantes »).</p>
+    <h3>Les demandes d'aide</h3>
+    <p>Si vous utilisez « Demander de l'aide » ou « Signaler un bug », Scalpel envoie votre message, les versions de Scalpel et de macOS et, si vous la donnez, votre adresse e-mail. Pour une erreur, vous pouvez choisir d'ajouter le passage sélectionné et le numéro de page. Le message arrive par e-mail chez DaHouse et sert seulement à vous répondre. Le service d'envoi garde une empreinte de votre adresse IP pendant sept jours, pour limiter les abus, puis l'efface.</p>
+    <h3>L'achat de Scalpel Pro</h3>
+    <p>Il passe par l'App Store. DaHouse ne reçoit ni votre identité ni vos moyens de paiement. La politique de confidentialité d'Apple s'applique.</p>
+    <h2>Ce que Scalpel ne fait pas</h2>
+    <p>Pas de compte, pas de publicité, pas de mesure d'audience, pas de suivi.</p>
+    <h2>Ce qui reste sur votre Mac</h2>
+    <p>Scalpel garde dans son bac à sable sa banque d'images, ses réglages, un cache de polices et un journal d'erreurs. Rien de cela n'est envoyé.</p>
+    <h2>Vos droits</h2>
+    <p>Pour toute question, ou pour faire effacer un message d'aide, écrivez à <a href="mailto:jrobert@besle.org">jrobert@besle.org</a>.</p>
+  </section>
+
+  <section class="en">
+    <p>Scalpel is an app by Julien Robert, DaHouse. Contact: <a href="mailto:jrobert@besle.org">jrobert@besle.org</a>.</p>
+    <h2>Your documents</h2>
+    <p>Scalpel opens and edits your PDFs on your Mac. No document is sent to DaHouse or to anyone else.</p>
+    <h2>What can leave your Mac</h2>
+    <h3>Open-source fonts</h3>
+    <p>When a font is missing, Scalpel can download an open-source font from the public Google Fonts and URW repositories, hosted on GitHub, and its licence text from openfontlicense.org. The request contains only the font family name: not the PDF, its name or its text. As with any web page, these sites see your connection's IP address. This download is on by default. You can turn it off in Scalpel's settings.</p>
+    <h3>Help requests</h3>
+    <p>If you use “Demander de l'aide” (Ask for help) or “Signaler un bug” (Report a bug), Scalpel sends your message, the Scalpel and macOS versions and, if you give it, your email address. For an error report, you can choose to add the selected passage and the page number. The message reaches DaHouse by email and is used only to answer you. The sending service keeps a fingerprint of your IP address for seven days to limit abuse, then deletes it.</p>
+    <h3>Buying Scalpel Pro</h3>
+    <p>The purchase goes through the App Store. DaHouse receives neither your identity nor your payment details. Apple's privacy policy applies.</p>
+    <h2>What Scalpel does not do</h2>
+    <p>No account, no ads, no analytics, no tracking.</p>
+    <h2>What stays on your Mac</h2>
+    <p>In its sandbox, Scalpel keeps its image library, its settings, a font cache and an error log. None of it is sent.</p>
+    <h2>Your rights</h2>
+    <p>For any question, or to have a help message deleted, write to <a href="mailto:jrobert@besle.org">jrobert@besle.org</a>.</p>
+  </section>
+
+</div>
+
+<script>
+  function setLang(l) {
+    document.documentElement.setAttribute('data-lang', l);
+    document.getElementById('fr').setAttribute('aria-pressed', String(l === 'fr'));
+    document.getElementById('en').setAttribute('aria-pressed', String(l === 'en'));
+    document.documentElement.lang = l;
+  }
+  function toggleTheme() {
+    var cur = document.documentElement.getAttribute('data-theme');
+    if (!cur) cur = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', cur === 'dark' ? 'light' : 'dark');
+  }
+  setLang((navigator.language || 'fr').toLowerCase().startsWith('en') ? 'en' : 'fr');
+</script>
+</body>
+</html>
