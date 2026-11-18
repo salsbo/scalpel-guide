@@ -6,13 +6,13 @@
     <description>Mises a jour de Scalpel</description>
     <language>fr</language>
     <item>
-      <title>Version 0.1.86</title>
-      <pubDate>Wed, 18 Nov 2026 22:19:11 +0100</pubDate>
-      <sparkle:version>202611182216</sparkle:version>
-      <sparkle:shortVersionString>0.1.86</sparkle:shortVersionString>
+      <title>Version 0.1.87</title>
+      <pubDate>Wed, 18 Nov 2026 22:24:34 +0100</pubDate>
+      <sparkle:version>202611182221</sparkle:version>
+      <sparkle:shortVersionString>0.1.87</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Corrige la recherche d'un texte sélectionné quand le PDF contient plusieurs espaces de suite : le message « fragment introuvable comme texte » n'apparaît plus dans ce cas. Inclut aussi la correction du plantage au remplacement de texte de la 0.1.85.</p>]]></description>
-      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.86/Scalpel-Update.zip" sparkle:edSignature="/BIpBBmyhExxoCxhbtJ9zAkoxXB7YfKSaNd4h08qCrRObuSnZp/s+Mp4liV9JrNH62FW+79mX/8l2eUoURzeDw==" length="25235315" type="application/octet-stream" />
+      <description><![CDATA[<p>La recherche d'un texte sélectionné retrouve désormais le fragment même si le PDF contient des espaces multiples, des espaces insécables ou fines, des ligatures, des césures ou un retour à la ligne : le message « fragment introuvable comme texte » devient beaucoup plus rare.</p>]]></description>
+      <enclosure url="https://github.com/salsbo/scalpel-guide/releases/download/v0.1.87/Scalpel-Update.zip" sparkle:edSignature="kOMje5DNyEKTKVrFgs+Mw9AHBGPBE5aYGgCJQ21roRUrZaIygOqIWJpQoPUuDGQ3FQ0MGTKpdV+hb9ESwDlqAA==" length="25235973" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
